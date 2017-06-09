@@ -39,8 +39,8 @@
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 
 <!--OWL CAROUSEL-->
-<link rel="stylesheet" type="text/css" href="vendor/owl_carousel/owl.carousel.min.css">
-<link rel="stylesheet" type="text/css" href="vendor/owl_carousel/owl.theme.default.min.css">
+<!-- <link rel="stylesheet" type="text/css" href="vendor/owl_carousel/owl.carousel.min.css">
+<link rel="stylesheet" type="text/css" href="vendor/owl_carousel/owl.theme.default.min.css"> -->
 
 <!--FONTS-->
 <link href="fonts/cssd767.css?family=Roboto:300,400,500,700" rel="stylesheet">
@@ -50,6 +50,12 @@
 <!--ESTILOS ISBUT-->
 <link rel="stylesheet" type="text/css" href="css/reset.css">
 <link rel="stylesheet" type="text/css" href="css/style.css">
+
+<!-- glide slider styles -->
+<!-- <link rel="stylesheet" type="text/css" media="all" href="css/glide.theme.min.css"> -->
+
+<!-- responsiveslides slider styles -->
+<link rel="stylesheet" type="text/css" media="all" href="css/responsiveslides.css">
 
 <!--[if IE]>
 	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -64,7 +70,7 @@
 
 
 	<!-- Google Tag Manager (noscript) -->
-	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MVNS4L" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MVNS4L" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> -->
 	<!-- End Google Tag Manager (noscript) -->
 
 <!--/////////////
@@ -160,8 +166,8 @@ HEADERs
 		        </a>
 		        <!-- <a href="https://zonapaciente.vitaldent.com:8023/" target="_blank"> -->
 		        <a href="#" target="_blank">
-					<img src="img/icon_paciente.png" alt="Área paciente" class="img img-responsive">
-				</a>
+							<img src="img/icon_paciente.png" alt="Área paciente" class="img img-responsive">
+						</a>
 	        <select class="lang-select">
 						<option value="es" selected="selected"> Español</option>
 						<option value="en"> English</option>
@@ -183,11 +189,70 @@ MAIN
 		<section id="home_inicio">
 			<div class="container-fluid">
 				<div class="row-fluid">
+					<div class="col-sm-2"></div>
+					<div class="col-xs-12 col-sm-8 col-md-8 ">
+						<!-- GLIDE slider -->
+						<!-- <div class="slider">
+							<ul class="slides">
+								<li class="slide">
+									<img src="img/portada1.jpg" alt="dribbble witches">
+								</li>
+								<li class="slide">
+									<img src="img/doctorpaitnttalking.jpg" alt="flying super squirrel">
+								</li>
+								<li class="slide">
+									<img src="img/especialidades2.jpg" alt="flying super squirrel">
+								</li>
+							</ul>
+						</div> -->
+
+						<!-- responsiveslides slider -->
+						<div class="callbacks_container">
+							<ul class="rslides" id="rslider">
+								<!-- <li>
+									<img src="img/especialidades2.jpg" alt="">
+									<p class="caption">This is another caption</p>
+								</li> -->
+								<li>
+									<div class="video-container">
+									<img src="img/bannerDeteccionPrecozCancer.jpg"></img>
+									</div>
+									<!-- <p class="caption">Video</p> -->
+									<!-- <img src="img/portada1.jpg" alt=""> -->
+								</li>
+								<li>
+									<div class="video-container">
+									<iframe src="https://www.youtube.com/embed/6xEuC6m3eu8" frameborder="0" allowfullscreen></iframe>
+									</div>
+									<!-- <p class="caption">Video</p> -->
+									<!-- <img src="img/portada1.jpg" alt=""> -->
+								</li>
+								<li>
+									<div class="video-container">
+									<iframe src="https://www.youtube.com/embed/bfF9KShfA-M" frameborder="0" allowfullscreen></iframe>
+									</div>
+								</li>
+								<li>
+									<div class="video-container">
+									<iframe src="https://www.youtube.com/embed/pgl25_F5rTw" frameborder="0" allowfullscreen></iframe>
+									</div>
+								</li>
+								<!-- <li>
+									<img src="img/CMS2.jpeg" alt="">
+									<p class="caption">The third caption</p>
+								</li> -->
+							</ul>
+						</div>
+
+						  </ul>
+						</div>
+					</div>
+				<!-- medicina personalizada -->
+				<div class="row-fluid">
 					<div class="col-xs-12 col-sm-8 no-padding">
-						<!-- <img src="img/portada1.png" alt="Vitaldent" class="img img-responsive pull-right"> -->
 						<img src="img/portada1.jpg" alt="Arpa Médica" class="img img-responsive pull-right">
 					</div>
-					<article class="col-xs-12 col-sm-4">
+					<article class="col-xs-12 col-sm-4 ">
 						<p class="vertical-center">
 															Una medicina <br class="hidden-xs"><br class="hidden-xs"><strong>PERSONALIZADA.</strong>
 
@@ -381,17 +446,19 @@ MAIN
 <!--COOKIES-->
 <script type="text/javascript" src="js/jquery.cookiesdirective.js"></script>
 
+<!-- responsiveslides -->
+<script type="text/javascript" src="js/responsiveslides.min.js"></script>
+
+<!--GLIDEJS-->
+<!-- <script type="text/javascript" src="js/jquery.glide.min.js"></script> -->
 
 <!--BOOTSTRAP-->
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 
 <!--OWL CAROUSEL-->
-<script type="text/javascript" src="vendor/owl_carousel/owl.carousel.min.js"></script>
+<!-- <script type="text/javascript" src="vendor/owl_carousel/owl.carousel.min.js"></script> -->
 
 <!--SCRIPTS ISBUT-->
 <script type="text/javascript" src="js/scripts.js"></script>
-
 </body>
-
-<!-- Mirrored from www.vitaldent.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 05 Jun 2017 20:42:11 GMT -->
 </html>

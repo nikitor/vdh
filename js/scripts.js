@@ -6,6 +6,32 @@ $(function() {
 		transitionSupported = typeof document.body.style.transitionProperty === "string", // detect CSS transition support
 		scrollTime = 1; // scroll time in seconds
 
+	// responsiveslides slider initialization
+	$("#rslider").responsiveSlides({
+		// auto: false,
+		auto: true,
+		pager: false,
+		nav: true,
+		speed: 500,
+		pause:true,
+		namespace: "callbacks",
+		// before: function () {
+		// 	$('.events').append("<li>before event fired.</li>");
+		// },
+		// after: function () {
+		// 	$('.events').append("<li>after event fired.</li>");
+		// }
+	});
+
+	// glide slider initialization
+		// $('.slider').glide({
+		//     // autoplay: 3500,
+		//     autoplay: 2500,
+		//     hoverpause: true, // set to false for nonstop rotate
+		//     arrowRightText: '&rarr;',
+		//     arrowLeftText: '&larr;'
+		//   });
+	// smooth scroll
 	$(document).on("click", "a[href*=\\#]:not([href=\\#])", function(e) {
 		var target, avail, scroll, deltaScroll;
 
