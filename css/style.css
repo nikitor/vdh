@@ -367,15 +367,22 @@ strong {
     transform: translate(0%, -50%);
     -webkit-transform: translate(0%, -50%);
 }
+.fixed_cita:hover {
+		background-color: #2db4b4;
+}
 .fixed_cita {
-    margin-left: 0;
-    transition: all .15s ease-in-out;
-    -webkit-transition: all .15s ease-in-out;
-    z-index: 99;
-    padding: 8px 12px;
-    background-color: #166db2;
-    width: 210px;
-    text-align: left;
+		margin-left: 0;
+		transition: all .15s ease-in-out;
+		-webkit-transition: all .15s ease-in-out;
+		z-index: 99;
+		padding: 8px 12px;
+		/* background-color: #166db2; */
+		background-color: #85e0e0;
+		/* width: 210px; */
+		text-align: left;
+		border-top: azure 1px solid;
+		border-bottom: #00d6d6 1px solid;
+		box-shadow: 2px 2px 10px #2caaaa;
 }
 .fixed_call {
     margin-left: 0;
@@ -404,10 +411,11 @@ body.it .fixed_cita {
 	max-width: 40px;
 }
 .fixed_cita span {
-   color: #FFF;
+   color: #ffffff;
    text-transform: uppercase;
-   font-size: 14px;
+   font-size: 1em;
    float: left;
+   font-weight: 400;
 }
 .fixed_call span {
    color: #166db2;
@@ -431,7 +439,7 @@ body.it .fixed_cita {
 }
 #fixed_buttons .butons_arrows{
     position: absolute;
-    left: 100%;
+    left: 99%;
     top: 50%;
     height: 100%;
     width: 20px;
@@ -440,8 +448,13 @@ body.it .fixed_cita {
     margin-left: 0;
     text-align: center;
     cursor: pointer;
-    border: 1px solid #166db2;
-    background: #166db2;
+    /*border: 1px solid #166db2;*/
+    /*background: #166db2; azul */
+		border-top: azure 1px solid;
+    border-bottom: #00d6d6 1px solid;
+    box-shadow: 2px 2px 5px hsla(180, 20%, 20%, 1);
+		/*border: 1px solid #FFF #85e0e0 #85e0e0 #85e0e0;*/
+    background: #85e0e0;
 }
 #fixed_buttons .butons_arrows .cierra,
 #fixed_buttons .butons_arrows .abre{
@@ -474,11 +487,13 @@ body.it .fixed_cita {
 }
 
 .full_title h2 {
-	color: #166db2;
+	/*color: #166db2;*/
+	color: #FF7AAF;
 	font-size: 33px;
 	text-transform: uppercase;
 	font-weight: 400;
-	border-bottom: 1px solid #166db2;
+	/*border-bottom: 1px solid #166db2; azul */
+	border-bottom: 1px solid #FF7AAF;
 	/*margin-top: 50px;*/
 	margin-bottom: -20px;
 	text-align: center;
@@ -495,11 +510,13 @@ body.it .fixed_cita {
 	background-color: #FFF;
 	height: 40px;
 	width: 40px;
-	border: 1px solid #166db2;
+	/*border: 1px solid #166db2;*/
+	border: 1px solid #FF7AAF;
 	display: block;
 	margin: 0 auto;
 	font-size: 30px;
-	color: #166db2;
+	/*color: #166db2;*/
+	color: #FF7AAF;
 	padding-top: 3px;
 	padding-left: 1px;
 	position: relative;
@@ -569,7 +586,7 @@ header {
 header #logo {
   float: left;
   margin-right: 2px;
-  height: 3em;
+  height: 3.5em;
   margin-top: -1.1em;
 }
 body.it header #logo {
@@ -637,15 +654,16 @@ header nav > ul > li {
 	padding-bottom: 20px;
 }
 header nav li span {
-    display: inline-block;
-    float: left;
-    text-transform: uppercase;
-    padding: 3px 15px;
-    font-weight: 100;
-    border-right: 1px solid #3b65ac;
-    /*font-size: 14px;*/
-    font-size: 1em;
-    cursor: pointer;
+	display: inline-block;
+	float: left;
+	text-transform: uppercase;
+	padding: 3px 15px;
+	font-weight: 100;
+	border-right: 1px solid #b42d65;
+	color: #2db4b4;
+	/* font-size: 14px; */
+	font-size: 1em;
+	cursor: pointer;
 }
 header nav li span:hover {
 	color: #3b65ac;
@@ -793,9 +811,14 @@ FOOTER
 #ventajas .ventaja {
 	margin-bottom: 50px;
 }
+#ventajas p {
+	color:#b42d65;
+}
+
 #ventajas .ventaja h3 {
 	text-transform: uppercase;
-	color: #166db2;
+	/*color: #166db2;*/
+	color: #FF7AAF;
 	font-weight: bold;
 	margin: 8px 0 15px;
 }
@@ -831,7 +854,8 @@ body.it #p_consulta h2 small {
 	margin-top: 5px;
 }
 footer {
-	background-color: #1165ae;
+	/*background-color: #1165ae; azul vd */
+	background-color: #FF7AAF;
 	padding: 20px 0;
 	display: block;
 	margin-top: 50px;
@@ -846,7 +870,7 @@ footer nav li {
 	height: 30px
 }
 footer nav li a {
-	color: #FFF;
+	color: #b42d65;
 	text-transform: uppercase;
 	padding: 8px 25px;
 	font-size: 14px;
@@ -859,7 +883,8 @@ footer nav li a:active {
 }
 
 #legal {
-	background-color: #1165ae;
+	/*background-color: #1165ae; azul vd*/
+	background-color: #FF7AAF;
 }
 #legal p {
 	color: #1165ae;
@@ -881,10 +906,16 @@ footer nav li a:active {
 	width: 23px;
 	height: 23px;
 	border-radius: 50%;
-	background-color: #1165ae;
+	/*background-color: #1165ae; azul*/
+	/*background-color: #00FEFE; rosa*/
+	background-color: #FF7AAF;
 	color: #FFF;
 	padding-top: 5.5px;
 	font-size: 12px;
+}
+
+#share_icons li a:hover {
+	background-color: #ff3385;
 }
 /* -------------------------
 HOME
@@ -902,8 +933,13 @@ article {
 	margin-bottom: 2em;
 }
 
+#head-banner:hover {
+	color: #ff3385;
+}
+
 #head-banner {
-	color:#a60a65;
+	/*color:#a60a65;*/
+	color:#FF7AAF;
 }
 
 #share_icons.share_icons_head{
@@ -913,9 +949,15 @@ article {
 	margin: 0 0.5em;
 }
 
+#home_inicio article p strong {
+	color: #FF7AAF;
+}
+
 #home_inicio article p {
 	font-size: 38px;
-	color: #1165ae;
+	/*color: #1165ae;*/
+	/*color: #ff2a7f; rosa oscuro */
+	color: #2db4b4;
 	font-weight: 100;
 	text-transform: uppercase;
 	max-width: 425px;
@@ -943,7 +985,8 @@ body.it #home_inicio article p {
 #home_tratamientos li {
 	/*font-size: 30px;*/
 	font-size: 1.4em;
-	color: #1165ae;
+	/*color: #1165ae;*/
+	color: #FF7AAF;
 	font-weight: 100;
 	text-transform: uppercase;
 	/*margin-bottom: 12px;*/
@@ -960,6 +1003,11 @@ body.it #home_inicio article p {
 	text-rendering: auto;
 	margin-right: 10px;
 }
+
+.full_title, body .full_title h3 {
+	color: #FF7AAF;
+}
+
 #home #ventajas .full_title {
 	position: absolute;
 	width: 100%;
@@ -1256,7 +1304,7 @@ LEGAL
 ---------------------*/
 
 footer #legal p {
-	color: #FFF;
+	color: #b42d65;
 	text-align: center;
 	font-size: 0.9em;
 	margin-top: 50px;
