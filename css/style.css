@@ -984,15 +984,24 @@ body.it #home_inicio article p {
 }
 #home_tratamientos li {
 	/*font-size: 30px;*/
+	color: #2db4b4;
 	font-size: 1.4em;
 	/*color: #1165ae;*/
-	color: #FF7AAF;
+	/*color: #FF7AAF;*/
 	font-weight: 100;
 	text-transform: uppercase;
 	/*margin-bottom: 12px;*/
 	margin-bottom: 0.75em;
 }
+#home_tratamientos li:hover {
+	color: #3b65ac;
+}
+#home_tratamientos li:nth-of-type(even):hover {
+	color: #ff3385;
+	font-weight: bold;
+}
 #home_tratamientos li:nth-of-type(even) {
+	color: #FF7AAF;
 	font-weight: bold;
 }
 #home_tratamientos li:before {
