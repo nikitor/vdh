@@ -1,0 +1,12 @@
+<svg id="svg4238" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="16" viewBox="0 0 20 16" width="20" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+ <g stroke="#00f0f0" fill="none">
+  <path id="path4248" d="m1.1307 10.324v-9.5662h18.346v12.457h-6.8381" stroke-width="1.5135"/>
+  <g stroke-width="1.4626">
+   <path id="path4250" d="m10.31 4.646h6.6034"/>
+   <path id="path4252" d="m10.31 6.8707h6.6034"/>
+   <path id="path4254" d="m10.31 8.852h4.7968"/>
+  </g>
+ </g>
+ <ellipse id="path4262" rx="2.8121" ry="2.9187" cy="7.1874" cx="5.8881" fill="#ff79ae"/>
+ <path id="path4264" d="m0.096667 15.899h11.541c-0.12604-2.1774 0.56783-4.7871-3.369-4.9551l-2.1348 3.6475-2.3016-3.6819c-4.4438 0.43392-3.6057 2.8978-3.7359 4.9895z" fill-rule="evenodd" stroke="#ffa5cd" stroke-width=".43243px" fill="#ffa5cd"/>
+</svg>

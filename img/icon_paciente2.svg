@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg4238"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   width="20"
+   height="16"
+   viewBox="0 0 20 16"
+   sodipodi:docname="icon_paciente2.svg">
+  <metadata
+     id="metadata4244">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs4242" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1855"
+     inkscape:window-height="1056"
+     id="namedview4240"
+     showgrid="false"
+     inkscape:object-paths="true"
+     inkscape:snap-intersection-paths="false"
+     inkscape:object-nodes="true"
+     inkscape:snap-smooth-nodes="true"
+     inkscape:snap-midpoints="true"
+     inkscape:snap-bbox="false"
+     inkscape:snap-to-guides="true"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:snap-nodes="false"
+     inkscape:bbox-nodes="false"
+     inkscape:snap-grids="false"
+     inkscape:snap-others="false"
+     inkscape:snap-global="true"
+     inkscape:snap-page="true"
+     inkscape:zoom="6.1474096"
+     inkscape:cx="5.9758371"
+     inkscape:cy="20.013743"
+     inkscape:window-x="65"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4238" />
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#ff79ae;stroke-width:1.51351488;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="m 1.1307142,10.324005 0,-9.56615346 18.3459988,0 0,12.45664746 -6.838054,0"
+     id="path4248"
+     inkscape:connector-curvature="0" />
+  <path
+     style="fill:none;fill-opacity:0;fill-rule:evenodd;stroke:#ffa5cd;stroke-width:1.4625566;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="m 10.310464,4.6460123 6.603384,0"
+     id="path4250"
+     inkscape:connector-curvature="0" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path4252"
+     d="m 10.310464,6.8706572 6.603384,0"
+     style="fill:none;fill-opacity:0;fill-rule:evenodd;stroke:#ffa5cd;stroke-width:1.4625566;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     style="fill:none;fill-opacity:0;fill-rule:evenodd;stroke:#ffa5cd;stroke-width:1.4625566;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="m 10.310464,8.8519817 4.796798,0"
+     id="path4254"
+     inkscape:connector-curvature="0" />
+  <ellipse
+     style="fill:#ff79ae;fill-opacity:1;stroke:none;stroke-width:2.14149451;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0"
+     id="path4262"
+     cx="6.0507779"
+     cy="6.9099865"
+     rx="2.8121195"
+     ry="4.0573421" />
+  <path
+     style="fill:#ffa5cd;fill-opacity:1;fill-rule:evenodd;stroke:#ffa5cd;stroke-width:0.43243283px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 0.09666708,15.898526 11.54130092,0 c -0.126041,-2.177371 0.567831,-4.787053 -3.3689922,-4.955128 l -2.1348073,3.647524 -2.301589,-3.681935 c -4.44379965,0.433921 -3.60565917,2.897819 -3.73591242,4.989539 z"
+     id="path4264"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="cccccc" />
+</svg>

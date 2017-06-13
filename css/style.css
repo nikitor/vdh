@@ -610,7 +610,8 @@ header #top_menu #area_paciente span {
 	float: left;
 }
 header #top_menu #area_paciente img {
-	max-width: 36px;
+	/*max-width: 36px;*/
+	height: 2em;
 }
 header #top_menu select {
 	cursor: pointer;
