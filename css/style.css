@@ -298,11 +298,18 @@ button:focus {
 	outline: none;
 }
 body {
-    font-family: 'Roboto', sans-serif;
-	color: #89898b;
+  font-family: 'Roboto', sans-serif;
+	/*color: #89898b;*/
+	/*color: #248f8f;*/
+	color: #2db4b4;
 	font-weight: 400;
 	font-size: 16px;
 }
+
+ul, ol {
+	list-style-type:none;
+}
+
 .center-center {
     position: relative;
     left: 50%;
@@ -404,6 +411,7 @@ body.it .fixed_cita {
 	float: left;
 	max-width: 20px;
 	margin-right: 10px;
+	height: 1.1em;
 }
 .fixed_call img {
 	float: left;
@@ -516,7 +524,8 @@ body.it .fixed_cita {
 	margin: 0 auto;
 	font-size: 30px;
 	/*color: #166db2;*/
-	color: #FF7AAF;
+	/*color: #FF7AAF;*/
+	color: #2db4b4;
 	padding-top: 3px;
 	padding-left: 1px;
 	position: relative;
@@ -646,6 +655,9 @@ header nav {
     width: 100%;
     float: left;
     padding-left: 15px;
+		font-weight: 100;
+		color: #2db4b4;
+		font-size: 1em;
 }
 header nav li {
 	position: relative;
@@ -661,12 +673,14 @@ header nav li span {
 	padding: 3px 15px;
 	font-weight: 100;
 	border-right: 1px solid #b42d65;
-	color: #2db4b4;
+	/*color: #2db4b4;*/
 	/* font-size: 14px; */
-	font-size: 1em;
+	/*font-size: 1em;*/
 	cursor: pointer;
 }
-header nav li span:hover {
+
+
+header nav li span:hover, header nav li a:hover {
 	color: #3b65ac;
 }
 header nav li >ul {
@@ -682,19 +696,21 @@ header nav li >ul {
     -webkit-box-shadow: 0 1px 5px 1px rgba(214,214,214,1);
     -moz-box-shadow: 0 1px 5px 1px rgba(214,214,214,1);
     box-shadow: 0 1px 5px 1px rgba(214,214,214,1);
-    padding: 10px;
+    padding: 0.3em;
 }
 header nav li >ul li {
 	width: 100%;
 }
 header nav li >ul a {
-    padding: 9px 5px;
-    border-bottom: 1px solid #d4e4f3;
-    color: #1165ae;
-    width: 100%;
-    clear: both;
-    display: block;
-    font-size: 14px;
+	padding: 0.3em 5px;
+  border-bottom: 1px solid #d4e4f3;
+  /*color: #1165ae;*/
+  color: ##2db4b4;
+  width: 100%;
+  clear: both;
+  display: block;
+  /*font-size: 14px;*/
+  font-size: 1em
 }
 header nav li >ul li:last-child a{
 	border-bottom: 0px solid #d4e4f3;
@@ -813,7 +829,10 @@ FOOTER
 	margin-bottom: 50px;
 }
 #ventajas p {
-	color:#b42d65;
+	color:#2db4b4;
+	/*color:#3b65ac;
+	color:#85e0e0;*/
+
 }
 
 #ventajas .ventaja h3 {
@@ -903,16 +922,16 @@ footer nav li a:active {
 	padding: 0 1px;
 }
 #share_icons li a {
-	display: inline-block;
-	width: 23px;
-	height: 23px;
-	border-radius: 50%;
+			border-radius: 50%;
+	    background-color: #FF7AAF;
+	    color: #FFF;
+			display: inline-block;
+			font-size: 1em;
+			height: 1.8em;
+	    padding-top: 0.3em;
+			width: 1.8em;
 	/*background-color: #1165ae; azul*/
 	/*background-color: #00FEFE; rosa*/
-	background-color: #FF7AAF;
-	color: #FFF;
-	padding-top: 5.5px;
-	font-size: 12px;
 }
 
 #share_icons li a:hover {
@@ -926,12 +945,21 @@ HOME
 	position: relative;
 }
 
-#home_inicio p {
-	text-align: center;
+#home_inicio .presentacion p {
+	margin: 0.75em 0;
 }
 
-article {
-	margin-bottom: 2em;
+#home_inicio p {
+	text-align: center;
+	font-size:1em;
+	color: #248f8f;
+	text-align: left;
+	font-weight: 100;
+
+}
+
+.presentacion {
+	margin-top: 2em;
 }
 
 #head-banner:hover {
@@ -954,8 +982,9 @@ article {
 	color: #FF7AAF;
 }
 
-#home_inicio article p {
-	font-size: 38px;
+#home_inicio article p.lema {
+	font-size: 2.37em;
+	/*font-size: 38px;*/
 	/*color: #1165ae;*/
 	/*color: #ff2a7f; rosa oscuro */
 	color: #2db4b4;
@@ -963,7 +992,7 @@ article {
 	text-transform: uppercase;
 	max-width: 425px;
 	/*margin-left: -210px;*/
-	margin-left: 0px;
+	/*margin-left: 0px;*/
 }
 body.it #home_inicio article p {
 	margin-left: 0;
@@ -1717,9 +1746,9 @@ MEDIAS
 	#home_inicio article p {
 	    font-size: 20px;
 	    line-height: 1.2em;
-	    max-width: 400px;
-	    margin: 20px auto;
-	    text-align: center;
+	    /*max-width: 400px;*/
+	    /*margin: 20px auto;*/
+	    /*text-align: center;*/
 	}
 	body.it #home_inicio article p {
 	    margin-left: auto;
@@ -1994,6 +2023,7 @@ MEDIAS
 	.btns-mobile a img {
 		max-height: 24px;
 		margin: 0 auto;
+		height: 1.7em;
 	}
 	.btns-mobile i {
 		color: #166db2;
@@ -2168,4 +2198,39 @@ MODAL
 	#ventajas .ventaja {
 		width: 50% !important;
 	}
+}
+
+/* -------------------------
+EQUIPO MEDICO
+------------------------- */
+
+#equipo-medico h2 {
+	text-align: center;
+	color:#FF7AAF;
+}
+
+#equipo-medico .zoomable {
+	border: none;
+  padding: 0;
+}
+
+#equipo-medico .zoomable:hover{
+	transform: scale(1.1,1.1);
+	-webkit-transition: transform 1.05s ease-in-out;
+	/*-moz-transition:transform 1.05s ease-in-out;
+	-ms-transition:transform 1.05s ease-in-out;*/
+}
+#equipo-medico .rnd-profile {
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    width: 52%;
+}
+
+#equipo-medico {
+	font-family: 'Fira Sans', sans-serif;
+}
+#equipo-medico p {
+	padding: 0 1.5em;
+	text-align: justify;
 }

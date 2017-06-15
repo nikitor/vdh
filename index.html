@@ -33,23 +33,25 @@
 <meta content="" name="keywords">
 <base >
 <!-- Favicon -->
-<link rel="shortcut icon" href="img/logo.ico" type="image/x-icon"><!-- 16x16 -->
+<link rel="shortcut icon" href="img/favicon2.ico" type="image/x-icon"><!-- 16x16 -->
 
 <!--BOOTSTRAP-->
+<!-- <link rel="stylesheet" type="text/css" href="css/reset.css"> -->
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/pe-icon-7-stroke.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
 
 <!--OWL CAROUSEL-->
-<link rel="stylesheet" type="text/css" href="vendor/owl_carousel/owl.carousel.min.css">
-<link rel="stylesheet" type="text/css" href="vendor/owl_carousel/owl.theme.default.min.css">
+<!-- <link rel="stylesheet" type="text/css" href="vendor/owl_carousel/owl.carousel.min.css">
+<link rel="stylesheet" type="text/css" href="vendor/owl_carousel/owl.theme.default.min.css"> -->
 
 <!--FONTS-->
 <link href="fonts/cssd767.css?family=Roboto:300,400,500,700" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
-<link rel="stylesheet" type="text/css" href="css/pe-icon-7-stroke.css">
+<link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,400,600" rel="stylesheet">
+
 
 <!--ESTILOS ISBUT-->
-<link rel="stylesheet" type="text/css" href="css/reset.css">
-<link rel="stylesheet" type="text/css" href="css/style.css">
 
 <!--[if IE]>
 	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -108,6 +110,7 @@ HEADERs
 						<li><a href="#" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
 						<li><a href="#" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
 						<li><a href="#" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+						<!-- FIXME faltan tumblr, pinterest, ver pagina actual -->
 					</ul>
 				</span></p>
 			</div>
@@ -120,9 +123,38 @@ HEADERs
 				<ul>
 					<!-- <li onclick="window.open('index.html','_self')"> -->
 					<li><span>Inicio</span></li>
-					<li><span>Sobre AM</span></li>
-					<li><span>Servicios</span></li>
-					<li><a href="#especialidades"><span>Especialidades</span></a></li>
+					<li><span>Sobre AM</span>
+						<ul class="submenu">
+							<li><a href="#quienes-somos">Quiénes Somos</a></li>
+							<li><a href="#mision">Misión</a></li>
+							<li><a href="#vision">Visión</a></li>
+							<li><a href="#equipo-medico">Equipo Médico</a></li>
+						</ul>
+					</li>
+					<li><span>Servicios</span>
+						<ul class="submenu">
+							<li><a href="UDI.html" data-url="#dignostico-imagen">Diagnóstico por Imagen</a></li>
+							<li><a href="UN.html" data-url="#nutricion">Nutrición</a></li>
+							<li><a href="UFO.html" data-url="#fisioterapia-osteopatia">Fisioterapia y Osteopatía</a></li>
+							<li><a href="SE.html" data-url="#extracciones">Sala de Extracciones</a></li>
+						</ul>
+
+					</li>
+					<li><a href="#especialidades"><span>Especialidades</span></a>
+						<ul class="submenu">
+							<li><a href="https://ginexlab.com/">Reproducción Asistida</a></li>
+							<li><a href="ACVC.html">Angiología, Cirugía Vascular y Cardiología</a></li>
+							<li><a href="CPER.html">Cirugía Plástica, Estética y Reparadora</a></li>
+							<li><a href="CGD.html">Cirugía General y Digestivo</a></li>
+							<li><a href="GO.html">Ginecología y Obstetricia</a></li>
+							<li><a href="MI.html">Medicina Interna</a></li>
+							<li><a href="Onc.html">Oncología</a></li>
+							<li><a href="Ped.html">Pediatría</a></li>
+							<li><a href="Prea.html">Preanestesia</a></li>
+							<li><a href="PCS.html">Psicología Clínica y Sanitaria</a></li>
+							<li><a href="urologia.html">Urología</a></li>
+						</ul>
+					</li>
 					<li><span>Comunicación</span></li>
 					<li><span>Formación y Docencia</span></li>
 				</ul>
@@ -163,7 +195,7 @@ HEADERs
 		        </a>
 		        <!-- <a href="https://zonapaciente.vitaldent.com:8023/" target="_blank"> -->
 		        <a href="#" target="_blank">
-					<img src="img/icon_paciente.png" alt="Área paciente" class="img img-responsive">
+					<img src="img/icon_paciente3.svg" alt="Área paciente" class="img img-responsive">
 				</a>
 	        <select class="lang-select">
 						<option value="es" selected="selected"> Español</option>
@@ -191,16 +223,26 @@ MAIN
 						<img src="img/portada1.jpg" alt="Arpa Médica" class="img img-responsive pull-right">
 					</div>
 					<article class="col-xs-12 col-sm-4">
-						<p class="vertical-center">
+						<p class="vertical-center lema">
 															Una medicina <br class="hidden-xs"><br class="hidden-xs"><strong>PERSONALIZADA.</strong>
 
 						</p>
+					</article>
+					<article class="col-xs-12 col-sm-12 presentacion">
+					<div class="container-fluid">
+						<div class="row-fluid">
+							<div class="col-xs-12 col-sm-12">
+								<p>Arpa Médica es una referencia de excelencia en la Reproducción Asistida, por lo avanzado de nuestras técnicas, la eficacia de nuestros tratamientos, por nuestro trato humano y por la calidad de nuestros profesionales.</p>
+								<p>El Dr. Ignacio Palomo, director de Arpa Médica y pionero de la Reproducción Asistida en España, ha traído al mundo a más de 20.000 niños nacidos gracias a las más innovadoras técnicas de RA. Esta labor es la que nos permite contar con el reconocimiento de nuestros pacientes, de los profesionales y de las instituciones.</p>
+								<p>Pero Arpa Médica es mucho más que Reproducción Asistida. Arpa Médica abarca un abanico muy amplio de especialidades médicas con la filosofía de que para nosotros, lo primero son las personas.</p><p>Ese es nuestro compromiso y nuestra contribución a la sociedad: una Medicina humanista, que escucha y conoce a las personas que nos entregan su confianza. Somos un grupo de alta calidad en la medicina privada, pero en colaboración permanente con las instituciones, unidos en el esfuerzo por conseguir una medicina de excelencia para todos.</p>
+							</div>
+						</div>
+					</div>
 					</article>
 				</div>
 			</div>
 		</section><!-- //inicio -->
 
-		<!-- Tratamientos -->
 		<section id="home_tratamientos" class="m-t-xl">
 			<div class="full_title container-fluid">
 				<h2>ESPECIALIDADES</h2>
@@ -237,6 +279,159 @@ MAIN
 				</div>
 			</div>
 		</section><!-- //tratamientos -->
+
+		<section id="quienes-somos"	class="">
+
+			<div class="full_title container-fluid">
+				<h2>Quiénes somos</h2>
+				<div class="circle">
+					<i class="fa fa-angle-down" aria-hidden="true"></i>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+
+			<div class="container-fluid">
+				<div class="row-fluid">
+					<div class="col-xs-12 col-sm-6 pull-right">
+
+<!-- imagen bebe -->
+						<img src="img/mquienessomos.jpg" class="img-responsive">
+						<!-- <img src="img/ignaciopalomo.jpg" class="img-responsive"> -->
+
+
+						<!-- <img src="images/home/img_tratamientos.jpg" alt="Tratamientos" class="img img-responsive"> -->
+						<!-- <img src="img/especialidades.jpg" alt="especialidades" class="img img-responsive"> -->
+					</div>
+					<!-- <article class="col-xs-12 col-sm-6 vertical-center" id="especialidades"> -->
+					<article class="col-xs-12 col-sm-6" id="txt-quienes-somos">
+						<!-- texto -->
+						<p>Arpa Médica tiene como primer objetivo el de ofrecer al paciente y a sus familiares el mejor trato médico y humano posible. Hay una medicina humanista, que es la que nos define. Consiste en dedicar a los pacientes el tiempo que necesiten. Supone escuchar y atender a la circunstancia personal de todas y cada una de las personas que han depositado su confianza en nosotros.</p>
+						<p>Una medicina que tenga en cuenta a la persona es capaz de acompañarle en su vida, desde el nacimiento hasta la edad adulta, es capaz de prevenir y dar soluciones a todos los problemas de salud que se puedan dar en el desarrollo pleno de una vida.</p>
+						<p>Estamos dedicados en exclusiva a su salud. Por eso nuestro modelo consiste en disponer todos los recursos necesarios para ofrecer una atención personalizada, una atención de calidad. Arpa Médica nace del esfuerzo conjunto de un grupo de profesionales de la medicina, dirigidos por el doctor Ignacio Palomo, para coordinar una oferta global, flexible, rápida y eficaz, que responda con agilidad para que el paciente pueda realizar en el menor tiempo posible las consultas, las pruebas y los tratamientos.</p>
+						<p>Nacimos como un centro médico especializado en la Ginecología y la Reproducción asistida. Veinte años de experiencia en ese campo nos han permitido desarrollar en estas dos décadas una oferta médica capaz de atender con calidad y excelencia todas las necesidades de las familias que en este tiempo nos han dado su confianza en un momento tan vital como el de traer una nueva vida al mundo. Arpa Médica es la confirmación de que durante todo este tiempo hemos puesto las necesidades de nuestros pacientes en el centro de nuestra actividad. Buscamos la mejora de las personas con los mejores profesionales.</p>
+					</article>
+				</div> 	<!-- /row-fluid -->
+				<div class="row-fluid">
+					<div class="col-xs-12 col-sm-6 ">
+
+						<!-- video al final de artículo de presentación -->
+						<!-- <div style="max-width:1122px;" class="contenedor">
+						<iframe width="1440" height="631" src="https://www.youtube.com/embed/PSm1YQI9Qu4" frameborder="0" allowfullscreen></iframe> -->
+						<img src="img/vds/img-video-quienes-somos.jpg" class="img-responsive">
+
+					</div>
+					<div class="col-xs-12 col-sm-6" id="img-ignacio-palomo">
+						<img src="img/medico/ignaciopalomo.jpg" class="img-responsive">
+					</div>
+				</div>
+			</div>	<!-- /container-fluid -->
+
+	</section> <!-- fin quienes somos -->
+
+	<!-- mision -->
+	<section id="mision"	class="">
+		<div class="full_title container-fluid">
+			<h2>Misión</h2>
+			<div class="circle">
+				<i class="fa fa-angle-down" aria-hidden="true"></i>
+			</div>
+		</div>
+		<div class="clearfix"></div>
+
+		<div class="container-fluid">
+			<div class="row-fluid">
+				<div class="col-xs-12 col-sm-6 no-padding pull-right">
+
+<!-- imagen bebe -->
+					<img src="img/mision.jpg" class="img-responsive">
+					<!-- <img src="img/ignaciopalomo.jpg" class="img-responsive"> -->
+
+
+					<!-- <img src="images/home/img_tratamientos.jpg" alt="Tratamientos" class="img img-responsive"> -->
+					<!-- <img src="img/especialidades.jpg" alt="especialidades" class="img img-responsive"> -->
+				</div>
+				<!-- <article class="col-xs-12 col-sm-6 vertical-center" id="especialidades"> -->
+				<article class="col-xs-12 col-sm-6" id="txt-quienes-somos">
+					<!-- texto -->
+					<p>Nuestra misión es cuidar, sanar, comprender y acompañar. Nuestro foco está puesto en la salud y el bienestar de las personas. Ponemos a su disposición unos servicios sanitarios de máxima calidad, con medios tecnológicos avanzados. Pero nuestro principal capital es el capital humano: <strong>profesionales que saben escuchar</strong>, que invierten tiempo en las personas, y que conocen el valor de <strong>una medicina cercana</strong>, la del médico que conoce a su paciente, que cuida de todo su entorno familiar, y que le acompaña en todos los procesos que implican a la salud como un concepto amplio.</p>
+					<p>Por eso la oferta de servicios de Arpa Médica está adaptada a las necesidades de todas y cada una de las personas que confían en nosotros. Nuestros horarios son flexibles, y tienen en cuenta que el cuidado de la salud se debe compaginar con una vida profesional intensa y una dedicación a la familia que exige mucho tiempo. Nos gusta decir que no tenemos pacientes: <strong>tenemos personas que confían en nosotros</strong> y a los que ofrecemos un cuidado que abarca todas las necesidades, porque pensamos que <strong>no hay medicina eficaz que no tenga en cuenta todas las dimensiones del ser humano.</strong></p>
+				</article>
+					<div class="col-xs-offset-1 col-xs-10 col-sm-10 ">
+					<!-- video al final de artículo de presentación -->
+					<img src="img/mision.jpg" class="img-responsive">
+					<!-- <div style="max-width:1122px;" class="contenedor">
+					<iframe width="1440" height="631" src="https://www.youtube.com/embed/PSm1YQI9Qu4" frameborder="0" allowfullscreen></iframe>
+				</div> -->
+				</div>
+
+</section> <!-- fin  mision -->
+
+<section id="vision"	class="">		<!-- vision -->
+	<div class="full_title container-fluid">
+		<h2>Visión</h2>
+		<div class="circle">
+			<i class="fa fa-angle-down" aria-hidden="true"></i>
+		</div>
+	</div>
+	<div class="clearfix"></div>
+
+	<div class="container-fluid">
+		<div class="row-fluid">
+			<div class="col-xs-12 col-sm-6 no-padding pull-right">
+
+				<img src="img/vision.jpeg" class="img-responsive">
+
+			</div>
+			<article class="col-xs-12 col-sm-6" id="txt-quienes-somos">
+				<!-- texto -->
+				<p>Arpa Médica quiere ser una referencia de <strong>excelencia en la medicina</strong>, por el <strong>trato humano</strong> y por la <strong>calidad de nuestros profesionales</strong> y la <strong>eficacia de nuestros tratamientos.</strong> Nuestra experiencia en el ejercicio de la medicina nos ha permitido contar con el reconocimiento de nuestros pacientes, de los profesionales y de las instituciones como una entidad de referencia.</p>
+				<p>Buscamos desarrollar una marca que tenga una identidad muy sólida, con una excelente reputación, que sea capaz de generar el orgullo de pertenencia a <strong>un equipo innovador</strong>, y que sea atractiva para que las nuevas generaciones de profesionales de la medicina desarrollen una carrera con un largo recorrido de éxitos profesionales. En Arpa Médica <strong>creemos en el talento</strong>, y queremos ser un polo de atracción para nuevos especialistas con capacidad de sumarse a nuestro equipo y aportar innovación.</p>
+				<p>Nuestra gestión está orientada a la creación de valor, pero entendemos que <strong>nuestra contribución es aportar valor a la sociedad.</strong> Queremos ser una pieza de alta calidad dentro de la medicina privada, pero en contacto permanente con las instituciones y una voluntad decidida de colaboración con el Sistema Público de Salud que nos permita a todos cumplir con el derecho fundamental a <strong>una atención sanitaria de máxima calidad.</strong></p>
+				<p>Los profesionales de Arpa Médica, con el <strong>Doctor Palomo</strong> a la cabeza, colaboramos también con las instituciones educativas en la formación de nuevas generaciones de médicos, aportando <strong>experiencia y conocimiento.</strong> La investigación es una de nuestras prioridades y la docencia nos permite compartir innovación y trasmitir nuestros valores a los estudiantes. Nuestros centros médicos son también lugares donde hacemos <strong>una labor constante de difusión de la cultura de la salud y la prevención.</strong></p>
+				<p>Arpa Médica tenemos también entre nuestros objetivos, un programa ambicioso de desarrollo de la Responsabilidad social. Somos un centro que nació sobre la base de la Ginecología y que ha ampliado sus servicios a través de la atención a las familias que nos han dado su confianza. Por eso <strong>nos implicamos en campañas que tienen su objetivo en el reconocimiento de los derechos de la mujer y la atención sanitaria a familias de zonas desfavorecidas.</strong></p>
+			</article>
+			<div class="col-xs-offset-1 col-xs-10 col-sm-10 ">
+				<!-- video al final de artículo de presentación -->
+				<img src="img/mvision.jpg" class="img-responsive">
+				<!-- <div style="max-width:1122px;" class="contenedor">
+				<iframe width="1440" height="631" src="https://www.youtube.com/embed/PSm1YQI9Qu4" frameborder="0" allowfullscreen></iframe>
+			</div> -->
+			</div>
+
+		</section> <!-- fin vision -->
+
+
+		<section id="equipo-medico" class="m-t-xl">		<!-- equipo medico -->
+			<div class="full_title container-fluid">
+				<h2>EQUIPO MÉDICO</h2>
+				<div class="circle">
+					<i class="fa fa-angle-down" aria-hidden="true"></i>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+
+			<div class="container-fluid">
+				<div class="row-fluid">
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12"><div class="rnd-profile"><img src="img/medico/ignaciopalomo.jpg" alt="" class="zoomable img-thumbnail"></div><h2>Ignacio Palomo</h2><p>and the stars had ceased to twinkle. By the same illusion which lifts the horizon of the sea to the level of the spectator on a hillside, the sable cloud beneath was dished out, and the car seemed to float in the middle of an immense dark sphe</p></div>
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12"><div class="rnd-profile"><img src="img/medico/elenafuente.jpg" alt="" class="zoomable img-thumbnail"></div><h2>Elena Fuente</h2><p>and the stars had ceased to twinkle. By the same illusion which lifts the horizon of the sea to the level of the spectator on a hillside, the sable cloud beneath was dished out, and the car seemed to float in the middle of an immense dark sphe</p></div>
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12"><div class="rnd-profile"><img src="img/medico/daniellopezdiaz.jpg" alt="" class="zoomable img-thumbnail"></div><h2>Daniel López Díaz</h2><p>Especialista</p></div>
+					<!-- <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12"><div class="rounded-circle"><img src="img/medico/daniellopezdiaz.jpg" alt="" class="zoomable img-thumbnail"></div><h2>Daniel López Díaz</h2><p>Especialista</p></div> -->
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12"><div class="rnd-profile"><img src="img/medico/faustinoavalo.jpg" alt="" class="zoomable img-thumbnail"></div><h2>Faustino Ávalo</h2><p>Especialista</p></div>
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12"><div class="rnd-profile"><img src="img/medico/fernandomoreno.jpg" alt="" class="zoomable img-thumbnail"></div><h2>Fernando Moreno</h2><p>Especialista</p></div>
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12"><div class="rnd-profile"><img src="img/medico/inmaculadamunoz.jpg" alt="" class="zoomable img-thumbnail"></div><h2>Inmaculada Muñoz</h2><p>Especialista</p></div>
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12"><div class="rnd-profile"><img src="img/medico/irenesantacruz.jpg" alt="" class="zoomable img-thumbnail"></div><h2>Irene Santacruz</h2><p>Especialista</p></div>
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12"><div class="rnd-profile"><img src="img/medico/jesuslazaro.jpg" alt="" class="zoomable img-thumbnail"></div><h2>Jesús Lázaro</h2><p>Especialista</p></div>
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12"><div class="rnd-profile"><img src="img/medico/joseantoniocarrillo.jpg" alt="" class="zoomable img-thumbnail"></div><h2>José Antonio Carrillo</h2><p>Especialista</p></div>
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12"><div class="rnd-profile"><img src="img/medico/marcelinogonzalez.jpg" alt="" class="zoomable img-thumbnail"></div><h2>Marcelino González</h2><p>Especialista</p></div>
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12"><div class="rnd-profile"><img src="img/medico/mariaestevez.jpg" alt="" class="zoomable img-thumbnail"></div><h2>María Estévez</h2><p>Especialista</p></div>
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12"><div class="rnd-profile"><img src="img/medico/marialuisaargente.jpg" alt="" class="zoomable img-thumbnail"></div><h2>Maria Luisa Argente</h2><p>Especialista</p></div>
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12"><div class="rnd-profile"><img src="img/medico/natividadlapuente.jpg" alt="" class="zoomable img-thumbnail"></div><h2>Natividad Lapuente</h2><p>Especialista</p></div>
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12"><div class="rnd-profile"><img src="img/medico/rafaeldiazdelgado.jpg" alt="" class="zoomable img-thumbnail"></div><h2>Rafael Díaz Delgado</h2><p>Especialista</p></div>
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12"><div class="rnd-profile"><img src="img/medico/talaljalloul.jpg" alt="" class="zoomable img-thumbnail"></div><h2>Talal Jalloul</h2><p>Especialista</p></div>
+        </div>
+			</div>
+		</section><!-- //equipo medico -->
+
 		<section id="ventajas">
 
 			<div class="full_title container-fluid">
@@ -350,7 +545,7 @@ MAIN
 			<button>
 				<!-- <img src="images/icon_cita.png" class="img img-responsive hidden-xs hidden-sm" alt="Calendario"> -->
 				<!-- <img src="img/icon_cita.png" class="img img-responsive hidden-xs hidden-sm" alt="Calendario"> -->
-				<img src="img/icon_cita.svg" class="img img-responsive hidden-xs hidden-sm" alt="Calendario">
+				<img src="img/icon_cita2.svg" class="img img-responsive hidden-xs hidden-sm" alt="Calendario">
 				<!-- <img src="green-circle.svg" height="64" alt="Nice green circle"/> -->
 
 				<span>Pide tu cita online</span>
