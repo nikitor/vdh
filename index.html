@@ -162,8 +162,15 @@ HEADERs
 								<li><a href="urologia.html">Urología</a></li>
 							</ul>
 						</li>
-						<li><span>Comunicación</span></li>
-						<li><span>Formación y Docencia</span></li>
+						<li><a href="comunicacion"><span>Comunicación</span></a>
+
+							<ul class="submenu">
+								<li><a href="#noticias">Noticias</a></li>
+								<li><a href="#compromiso-social">Compromiso social</a></li>
+							</ul>
+						</li>
+						<li><span><a href="#formacion-docencia" data-url="#formacion-docencia">Formación y Docencia</span></a>
+						</li>
 					</ul>
 				</nav>
 				<!--añadir clase submenu-->
@@ -335,9 +342,7 @@ MAIN
 						<div class="col-xs-12 col-sm-6 ">
 
 							<!-- video al final de artículo de presentación -->
-							<!-- <div style="max-width:1122px;" class="contenedor">
-						<iframe width="1440" height="631" src="https://www.youtube.com/embed/PSm1YQI9Qu4" frameborder="0" allowfullscreen></iframe> -->
-							<img src="img/vds/img-video-quienes-somos.jpg" class="img-responsive">
+							<img src="img/vds/img-video-quienes-somos.jpg" class="img img-responsive center-block video_a_modal" alt="Vídeo" data-url-video="PSm1YQI9Qu4">
 
 						</div>
 						<div class="col-xs-12 col-sm-6" id="img-ignacio-palomo">
@@ -530,21 +535,27 @@ MAIN
 
 			<section id="ventajas">
 
+				<!--ventajas -->
 				<div class="full_title container-fluid">
-					<h2>Ventajas<strong></strong></h2>
+					<h2>Ventajas</h2>
 					<div class="circle">
 						<i class="fa fa-angle-down" aria-hidden="true"></i>
 					</div>
 				</div>
+				<div class="clearfix"></div>
 
+				<div class="full_title container-fluid">
+					<h2>Ventajas</h2>
+					<div class="circle">
+						<i class="fa fa-angle-down" aria-hidden="true"></i>
+					</div>
+				</div>
 				<div class="container" id="listado_ventajas">
 					<div class="row">
 						<article class="col-xs-12 col-sm-3 col-md-3 ventaja">
-							<img src="img/icon_equipo.png" alt="Equipo" class="img img-responsive center-block">
+							<img src="img/icon_equipo.svg" alt="Equipo" class="img img-responsive center-block">
 							<h3>Equipo</h3>
-
 							<p>Los mejores profesionales y un servicio cercano para que recibas el mejor tratamiento.</p>
-							</h2>
 						</article>
 
 						<article class="col-xs-12 col-sm-3 col-md-3 ventaja">
@@ -569,31 +580,11 @@ MAIN
 							<p>Lo primero es tu salud y te ayudamos a que puedas disfrutar de ella.</p>
 
 						</article>
-
-						<!-- <article id="p_consulta" class="col-xs-12">
-												<h2>La primera consulta, la radiografía y el presupuesto son gratis. <br><strong>Pide tu consulta en el  <a href="tel:900111003">900 111 003</a>.</strong></h2>
-					</article> -->
-					</div>
-
-					<div class="row">
-
-						<ul id="share_icons" class="col-xs-12">
-							<!-- <li><a href="https://www.linkedin.com/company/vitaldent-group" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-						<li><a href="https://twitter.com/Vitaldent_es" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-						<li><a href="https://www.facebook.com/VitaldentEspana" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-						<li><a href="https://plus.google.com/106457294903299896742/posts" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-						<li><a href="https://www.youtube.com/user/VitaldentEspana" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a></li> -->
-
-							<!-- FIXME estos son los share icons que deben ir en footer?  -->
-							<!-- <li><a href="#" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-						<li><a href="#" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-						<li><a href="#" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-						<li><a href="#" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-						<li><a href="#" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a></li> -->
-						</ul>
 					</div>
 				</div>
 			</section>
+			<!-- fin Ventajas -->
+
 			<!-- servicios -->
 			<!--
 		-Diagnóstico por Imagen
@@ -670,7 +661,9 @@ MAIN
 					<div class="row-fluid">
 						<div class="col-xs-12 col-sm-6 no-padding pull-right">
 
-							<img src="img/vds/img-video-nutricion.jpg" class="img-responsive">
+							<!-- <img src="img/vds/img-video-nutricion.jpg" class="img-responsive form-group"> -->
+							<img src="img/vds/img-video-nutricion.jpg" class="img img-responsive center-block video_a_modal form-group" alt="Vídeo" data-url-video="h_sxzVCItTA">
+							<img src="img/irenesantacruz.jpg" class="img-responsive form-group">
 
 						</div>
 						<article class="col-xs-12 col-sm-6" id="txt-nutricion">
@@ -679,7 +672,7 @@ MAIN
 								<img src="img/nutricion.gif" class="wrap align-left img-responsive">Obesidad, hipertensión, hipercolesterolemia o algunos tipos de cánceres están directamente relacionados con la alimentación.</p>
 							<p>Alimentarse no sólo consiste en comer para vivir o para saciar el hambre, es algo mucho más complejo. Es un acto social, en el que intervienen muchos otros factores además del puramente nutricional: las costumbres y cultura del lugar en que vivimos;
 								las modas y medios de información; el entorno familiar; el sexo, la edad o las preferencias personales e incluso las creencias religiosas. Incluso el estado de ánimo y la salud influyen sobre qué y cómo comemos.
-								<img src="img/irenesantacruz.jpg" class="wrap align-right img-responsive"></p>
+							</p>
 							<p>Una alimentación es adecuada si en verdad es capaz de cubrir las necesidades del organismo; de acuerdo a las características personales, con el fin de alcanzar o mantener un buen estado nutricional y de salud.</p>
 							<p>La Unidad de Nutrición de Arpa Médica está orientada a conseguir una alimentación equilibrada, que conserve la salud del paciente y que potencie su energía y vitalidad. Con la ayuda de la más moderna tecnología y el apoyo de la analítica genética,
 								podremos saber qué motiva el aumento de peso de un paciente o el porqué de su dificultad para adelgazar o para engordar, si este es el caso. Cada paciente es sometido a un evaluación nutricional completa y se le indica un tratamiento dietético
@@ -706,14 +699,14 @@ MAIN
 						<div class="col-xs-12 col-sm-6 no-padding pull-right">
 
 							<!-- <img src="img/vision.jpeg" class="img-responsive"> -->
+							<img src="img/ufo.jpg" class="img-responsive">
 
 						</div>
 						<article class="col-xs-12 col-sm-6" id="txt-fisioterapia-osteopatia">
 							<!-- texto -->
-							<p>La Unidad de Fisioterapia y Osteopatía de Arpa Médica trabaja eficazmente para prevenir las lesiones y recuperar al paciente en el menor tiempo posible para que puedan seguir con sus actividades cotidianas tras la terapia.<img src="img/ufo.jpg"
-								  class="wrap align-left"> La Unidad de Fisioterapia y Osteopatía de Arpa Médica emplea las técnicas más eficaces de este campo para que sus pacientes, desde neonatos hasta adultos, recuperen los tejidos corporales que han sido dañados por lesiones
-								u otras alteraciones que hayan sufrido. Nuestros especialistas elaboran un plan a medida para cada paciente en base al diagnóstico médico y objetivos marcados. Los tratamientos de Fisioterapia y Osteopatía se realizan manualmente o con estímulo
-								técnico y facilitan una rápida y eficaz curación.</p>
+							<p>La Unidad de Fisioterapia y Osteopatía de Arpa Médica trabaja eficazmente para prevenir las lesiones y recuperar al paciente en el menor tiempo posible para que puedan seguir con sus actividades cotidianas tras la terapia. La Unidad de Fisioterapia
+								y Osteopatía de Arpa Médica emplea las técnicas más eficaces de este campo para que sus pacientes, desde neonatos hasta adultos, recuperen los tejidos corporales que han sido dañados por lesiones u otras alteraciones que hayan sufrido. Nuestros
+								especialistas elaboran un plan a medida para cada paciente en base al diagnóstico médico y objetivos marcados. Los tratamientos de Fisioterapia y Osteopatía se realizan manualmente o con estímulo técnico y facilitan una rápida y eficaz curación.</p>
 						</article>
 					</div>
 				</div>
@@ -754,6 +747,89 @@ MAIN
 			</section>
 			<!-- /Sala de Extracciones -->
 			<!-- /servicios -->
+
+			<!-- Especialidades -->
+			<!-- Reproducción Asistida
+				Angiología, Cirugía Vascular y Cardiología
+				Cirugía Plástica, Estética y Reparadora
+				Cirugía General y Digestivo
+				Ginecología y Obstetricia
+				Medicina Interna
+				Oncología
+				Pediatría
+				Preanestesia
+				Psicología Clínica y Sanitaria
+				Urología -->
+
+
+			<!-- Comunicacion   -->
+			<!-- noticias -->
+			<!-- TODO -->
+			<!-- compromiso social -->
+			<!-- TODO -->
+			<section id="compromiso-social" class="">
+
+				<div class="full_title container-fluid">
+					<h2>Compromiso social</h2>
+					<div class="circle">
+						<i class="fa fa-angle-down" aria-hidden="true"></i>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+				<div class="container-fluid">
+					<div class="row-fluid">
+						<article class="col-xs-12 col-sm-6" id="txt-compromiso-social">
+							<!-- texto -->
+							<p>En Arpa Médica nos mueve una motivación fundamental: ejercer la medicina y servir a las personas. Somos conscientes de que en el mundo hay muchos seres humanos que no pueden acceder a los servicios básicos de salud. Con muy poco de lo que nosotros
+								tenemos, su vida cambiaría. Muchas veces se trata de combatir enfermedades que en Occidente están erradicadas. En otras muchas ocasiones, se trata del acceso a un saneamiento eficaz en su vida cotidiana. Pero también nos encontramos con problemas
+								que tienen su origen en la cultura o en las creencias, como todo lo que tiene que ver con la mutilación genital femenina.</p>
+							<h2>Experiencia</h2>
+							<p>Por todo eso hemos desarrollado planes de compromiso social que nos permitan compartir nuestros conocimientos y nuestra capacidad de llevar salud a personas que no la tienen. Contamos con una larga experiencia. El fundador y director de Arpa Médica,
+								el Dr. Ignacio Palomo, ha dirigido proyectos de cooperación en países de la América Hispana. Arpa Médica alberga además de forma frecuente, jornadas de educación, impulsa proyectos de intercambio con organizaciones no gubernamentales, y promueve
+								el cumplimiento del derecho fundamental de las personas a una sanidad básica.</p>
+							<h2>Cooperación</h2>
+							<p>A veces hay que ir lejos para ayudar a comunidades que necesitan servicios médicos o remedios para enfermedades endémicas. Pero para desarrollar nuestra vocación y nuestra responsabilidad no siempre es necesario desplazarse a otros continentes.
+								Muchas personas por su condición de inmigrantes o por su situación social nos necesitan, y en Arpa Médica hacemos un esfuerzo constante por estar a su lado. Nuestras puertas están abiertas para todas aquellas organizaciones que tengan proyectos
+								a los que podamos contribuir y en los que podamos cumplir nuestro compromiso con la sociedad.</p>
+						</article>
+						<div class="form-group col-xs-12 col-sm-6 no-padding pull-right">
+							<img src="img/compromisosocial.jpg" class="form-group img-responsive">
+							<img src="img/compromisosocial.jpeg" class="form-group img-responsive">
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Formación y Docencia			 -->
+			<section id="formacion-docencia" class="">
+
+				<div class="full_title container-fluid">
+					<h2>Formación y docencia</h2>
+					<div class="circle">
+						<i class="fa fa-angle-down" aria-hidden="true"></i>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+				<div class="container-fluid">
+					<div class="row-fluid">
+						<article class="col-xs-12 col-sm-6" id="txt-formacion-docencia">
+							<!-- texto -->
+							<p>En Arpa Médica creemos en la formación como pilar fundamental del progreso de la Medicina. La Universidad nos permite transmitir la riqueza de la experiencia de años de consulta, de cirugía, y el estudio de los casos más significativos y relevantes.
+								Pero también nos aporta innovación y la posibilidad de encontrar talento para nuestros centros médicos, que están abiertos a la incorporación de titulados y especialistas que aporten conocimiento y busquen experiencia. El Dr Palomo desarrolla
+								su labor docente a través de la <a href="http://www.uax.es/"><strong>Universidad Alfonso X el Sabio</strong></a>, de cuya Facultad de Medicina es profesor. Su tesis sobre Transplante hepático en embarazadas, premio de la Academia de la Medicina
+								a la mejor tesis doctoral, le acredita como uno de los mejores cirujanos de la medicina española. Arpa Médica colabora también con fundaciones, como la Fundación FIDE, en la que nuestros especialistas han participado en sesiones sobre bioética,
+								y en debates sobre las nuevas regulaciones y cambios legales a los que nos obligan innovaciones en el campo de la biomedicina, los transplantes, la maternidad subrogada o la edición genética del método CRISPR.</p>
+						</article>
+						<div class="form-group col-xs-12 col-sm-6 no-padding pull-right">
+							<img src="img/formacion2.jpg" class="form-group img-responsive">
+							<img src="img/formacion3.jpeg" class="form-group img-responsive">
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- fin Formación y Docencia			 -->
+
+
 
 		</main>
 		<!--/////////////
@@ -817,6 +893,19 @@ MAIN
 				</div>
 			</div>
 		</div>
+
+		<!-- POPUP Vídeo -->
+		<div id="video_bkg"></div>
+		<div id="video_popup">
+			<div class="popup_content">
+				<div class="popup_cerrar">
+					<span class="pe-7s-close"></span>
+				</div>
+			</div>
+			<div id="video_ori" style="display:none"></div>
+		</div>
+
+
 		<!-- Trigger the modal with a button -->
 
 		<!-- Modal -->
@@ -855,5 +944,7 @@ MAIN
 </body>
 
 <!-- Mirrored from www.vitaldent.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 05 Jun 2017 20:42:11 GMT -->
+
+</html>
 
 </html>

@@ -300,11 +300,11 @@ button:focus {
 body {
   /*font-family: 'Roboto', sans-serif;*/
   font-family: 'Fira Sans', sans-serif;
-	/*color: #89898b;*/
-	/*color: #248f8f;*/
-	color: #2db4b4;
-	font-weight: 400;
-	font-size: 16px;
+  /*color: #89898b;*/
+  /*color: #248f8f;*/
+  color: #248f8f;
+  font-weight: 100;
+  font-size: 16px;
 }
 
 ul, ol {
@@ -526,7 +526,7 @@ body.it .fixed_cita {
 	font-size: 30px;
 	/*color: #166db2;*/
 	/*color: #FF7AAF;*/
-	color: #2db4b4;
+	color: #248f8f;
 	padding-top: 3px;
 	padding-left: 1px;
 	position: relative;
@@ -830,12 +830,14 @@ FOOTER
 	margin-bottom: 50px;
 }
 #ventajas p {
-	color:#2db4b4;
+	color: #248f8f;
 	/*color:#3b65ac;
 	color:#85e0e0;*/
-
 }
 
+.ventaja img {
+    padding: 2em 2em 0 2em;
+}
 #ventajas .ventaja h3 {
 	text-transform: uppercase;
 	/*color: #166db2;*/
@@ -1721,13 +1723,13 @@ MEDIAS
     	height: 40px;
     }
     footer nav li:after {
-    	position: absolute;
-    	content: "";
-    	height: 1px;
-    	width: 50px;
-    	bottom: 0;
-    	background-color: #FFF;
-    	margin-left: -25px;
+			position: absolute;
+	    content: "";
+	    height: 1px;
+	    width: 50px;
+	    bottom: 0;
+	    background-color: #d75fa5;
+	    margin-left: -25px;
     }
     footer nav li a {
 	    padding: 12px 25px;

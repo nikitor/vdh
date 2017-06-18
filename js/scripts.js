@@ -66,24 +66,9 @@ $(function() {
 	}
 });
 
-$(document).ready(function() {
+//Popup vídeo
+$(function() {
 
-    setTimeout(function(){
-
-      calculaTamanio();
-    }, 350);
-
-
-  //Redirigir el idioma al cambiar el select
-  multilanguage();
-
-  //Menu
-  menu();
-
-  //Funciones compartidas READY and RESIZE
-  readyResize();
-
-  //Popup vídeo
   $(".popup_cerrar").click(function(e){
       $("#video_bkg").hide();
       $("#video_popup").hide();
@@ -102,10 +87,10 @@ $(document).ready(function() {
       $("#video_popup").hide();
       $('.embed-container').remove();
   });
-$('#myModal').on('show.bs.modal', function (e) {
-  $('#iframe_cita_online').on('load', function(){
-  });
-})
+	$('#myModal').on('show.bs.modal', function (e) {
+	  $('#iframe_cita_online').on('load', function(){
+})})})
+
 
   //Owl Carousel
     /*
@@ -128,7 +113,6 @@ $('#myModal').on('show.bs.modal', function (e) {
     */
 
 
-});
 
 $( window ).resize(function() {
 
