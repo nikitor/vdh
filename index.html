@@ -89,14 +89,14 @@ HEADERs
 						<option value="es" >English</option>
 						<option value="es" >Russian</option>
 					</select>
-						<div id="area_paciente">
-							<a href="#" target="_blank">
+						<div id="area-paciente" class="area_paciente">
+							<a href="c_previa.html" target="_blank">
 								<!-- <img src="img/icon_paciente.png" alt="Área paciente" class="img img-responsive"> -->
 								<img src="img/icon_paciente3.svg" alt="Área paciente" class="img img-responsive">
 								<span>Área <br>pacientes</span>
 							</a>
 						</div>
-						<div id="area_paciente">
+						<div id="area-visitor" class="area_paciente">
 							<a href="#" target="_blank">
 					<img src="img/icon_visitors.svg" alt="International visitors" class="img img-responsive">
 					<span>International visitors</span>
@@ -104,7 +104,7 @@ HEADERs
 						</div>
 					</div>
 					<!-- <p><span>Llámanos</span>  <a id="llamada-900-header" href="tel:900111003"><strong>900 111 003</strong></a></p> -->
-					<p><a id="head-banner" href="#"><strong>ARPA MÉDICA</strong></a><span>
+					<p><a id="head-banner" href="index.html"><strong>ARPA MÉDICA</strong></a><span>
 					<ul id="share_icons" class="share_icons_head">
 						<li><a href="#" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
 						<li><a href="#" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
@@ -124,7 +124,7 @@ HEADERs
 
 					<ul>
 						<!-- <li onclick="window.open('index.html','_self')"> -->
-						<li><span><a href="#home_inicio">Inicio</span></a>
+						<li><span><a href="index.html#home_inicio">Inicio</span></a>
 						</li>
 						<li><span>Sobre AM</span>
 
@@ -208,7 +208,7 @@ HEADERs
 		        	<i class="fa fa-phone" aria-hidden="true"></i>
 		        </a>
 					<!-- <a href="https://zonapaciente.vitaldent.com:8023/" target="_blank"> -->
-					<a href="#" target="_blank">
+					<a href="c_previa.html" target="_blank">
 					<img src="img/icon_paciente3.svg" alt="Área paciente" class="img img-responsive">
 				</a>
 					<select class="lang-select">
@@ -559,6 +559,7 @@ MAIN
 						</article>
 
 						<article class="col-xs-12 col-sm-3 col-md-3 ventaja">
+							<img src="img/icon_centros4.svg" alt="Centros" class="img img-responsive center-block">
 							<!-- <img src="images/icon_clinicas.png" alt="Clínicas" class="img img-responsive center-block"> -->
 							<h3>Centros</h3>
 
@@ -878,16 +879,17 @@ MAIN
 		</a>
 		<div class="clearfix"></div>
 		-->
-				<a href="javascript:void(0);" id="sticky-pedir-cita" class="btn fixed_cita" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">
+				<!-- <a href="javascript:void(0);" id="sticky-pedir-cita" class="btn fixed_cita" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal"> -->
+				<a href="c_previa.html" id="sticky-pedir-cita" class="btn fixed_cita" class="btn btn-info btn-lg">
 			<button>
 				<!-- <img src="images/icon_cita.png" class="img img-responsive hidden-xs hidden-sm" alt="Calendario"> -->
 				<!-- <img src="img/icon_cita.png" class="img img-responsive hidden-xs hidden-sm" alt="Calendario"> -->
 				<img src="img/icon_cita2.svg" class="img img-responsive hidden-xs hidden-sm" alt="Calendario">
 				<!-- <img src="green-circle.svg" height="64" alt="Nice green circle"/> -->
 				<span>Pide tu cita online</span>
-			</button>
-		</a>
-				<div class="butons_arrows abrir">
+				</button>
+				</a>
+				<div class="butons_arrows abrir" style="display: none;">
 					<span class="abre"><i class="fa fa-angle-right" aria-hidden="true"></i></span>
 					<span class="cierra"><i class="fa fa-angle-left" aria-hidden="true"></i></span>
 				</div>

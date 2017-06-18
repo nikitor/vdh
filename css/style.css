@@ -375,6 +375,10 @@ strong {
     transform: translate(0%, -50%);
     -webkit-transform: translate(0%, -50%);
 }
+
+/*///////////////////////////////*/
+/*     appointment buttons       */
+/*///////////////////////////////*/
 .fixed_cita:hover {
 		background-color: #2db4b4;
 }
@@ -392,6 +396,7 @@ strong {
 		border-bottom: #00d6d6 1px solid;
 		box-shadow: 2px 2px 10px #2caaaa;
 }
+
 .fixed_call {
     margin-left: 0;
     transition: all .15s ease-in-out;
@@ -426,6 +431,34 @@ body.it .fixed_cita {
    float: left;
    font-weight: 400;
 }
+
+.btn-primary:hover {
+    color: #91e3e3;
+    background-color: #286090;
+    /* border-color: #204d74; */
+    background-color: #2db4b4;
+    border: 1px solid #009494;
+    /* border-top: azure 1px solid; */
+    border-bottom: #009494 1px solid;
+    box-shadow: 1px 1px 3px #888;
+    padding: 11px 16px 11px;
+    /* font-size: 1.5em; */
+    line-height: 1.2;
+}
+
+/*TODO modificar la pantalla c_previa.html*/
+.btn-primary {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    background-color: hsla(180, 59%, 63%, 1);
+    border: 1px solid #85e0e0;
+    border-top: azure 1px solid;
+    border-bottom: #00d6d6 1px solid;
+    box-shadow: 3px 3px 4px #2caaaa;
+	}
+}
+
 .fixed_call span {
    color: #166db2;
    text-transform: uppercase;
@@ -609,17 +642,18 @@ header p {
 	font-size: 30px;
 	float: left;
 	margin-top: 2px;
+	margin-bottom: 0;
 }
 header #top_menu {
 	margin-top: -1px;
 }
 header #top_menu select,
-header #top_menu #area_paciente,
-header #top_menu #area_paciente img,
-header #top_menu #area_paciente span {
+header #top_menu .area_paciente,
+header #top_menu .area_paciente img,
+header #top_menu .area_paciente span {
 	float: left;
 }
-header #top_menu #area_paciente img {
+header #top_menu .area_paciente img {
 	/*max-width: 36px;*/
 	height: 2em;
 }
@@ -639,19 +673,20 @@ header #top_menu select {
     appearance: none;
     background: url(../images/arrow_select.png) 92% / 15% no-repeat;
 }
-header #top_menu #area_paciente {
+header #top_menu .area_paciente {
 	margin-left: 15px;
 	border-left: 1px solid #3b65ac;
 	padding: 5px 0 5px 15px;
 }
-header #top_menu #area_paciente span {
+header #top_menu .area_paciente span {
     font-size: 12px;
     text-transform: uppercase;
     line-height: 1.1em;
     padding-left: 10px;
 }
 header nav {
-    margin-top: 20px;
+    /*margin-top: 20px;*/
+    margin-top: 0px;
     display: block;
     width: 100%;
     float: left;
@@ -771,7 +806,7 @@ header.small_menu #small_logo {
     margin-top: 3px;
     display: block;
 }
-header.small_menu #top_menu #area_paciente {
+header.small_menu #top_menu .area_paciente {
 	margin-left: 0;
 	border-left: 0;
 	padding: 0;
@@ -1521,7 +1556,7 @@ MEDIAS
 	    margin-bottom: 0;
 	}
 	header.small_menu p,
-	header.small_menu #area_paciente span {
+	header.small_menu .area_paciente span {
 		display: none;
 	}
 	/*Footer*/
@@ -1686,7 +1721,7 @@ MEDIAS
 	    width: 306px;
 	    max-width: 250px;
 	}
-	header #top_menu #area_paciente span {
+	header #top_menu .area_paciente span {
 		display: none;
 	}
 	/*Generales**/
@@ -2058,6 +2093,7 @@ MEDIAS
     	-webkit-transition: all .15s ease-in-out;
 	}
 	header nav ul {
+		padding-left:	0;
 		margin:0px;
 		width: 100%;
 	    height: auto;
