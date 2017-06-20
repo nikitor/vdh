@@ -528,6 +528,14 @@ body.it .fixed_cita {
 		/*margin-bottom:0;*/
 }
 
+section article h2 {
+	font-family: "Roboto", Arial, Helvetica, sans-serif;
+	font-size: 1.5em;
+	font-weight: 100;
+	color: #ff3385;
+	text-align: center;
+}
+
 .full_title h2 {
 	/*color: #166db2;*/
 	color: #FF7AAF;
@@ -915,7 +923,7 @@ footer {
 	/*background-color: #1165ae; azul vd */
 	/*background-color: #FF7AAF;*/
 	background-color: #2db4b4;
-	padding: 20px 0;
+	/*padding: 20px 0;*/
 	display: block;
 	margin-top: 50px;
 	color: #FFF;
@@ -935,7 +943,7 @@ footer nav li a {
 	color: #FFF;
 	text-transform: uppercase;
 	padding: 8px 25px;
-	font-size: 1.125em;
+	font-size: 0.875em;
 	display: block;
 	font-weight: normal;
 }
@@ -1046,8 +1054,8 @@ HOME
 body.it #home_inicio article p {
 	margin-left: 0;
 }
-#home_tratamientos ul,
-#home_tratamientos .box_circle {
+#sec_especialidades ul,
+#sec_especialidades .box_circle {
 	float: right;
 	width: 352px;
 	max-width: 100%;
@@ -1055,13 +1063,13 @@ body.it #home_inicio article p {
 	text-align: left;
 	margin-right: 100px;
 }
-#home_tratamientos ul, #home_tratamientos .box_circle {
+#sec_especialidades ul, #sec_especialidades .box_circle {
     width: 370px;
 }
-#home_tratamientos .box_circle .circle {
+#sec_especialidades .box_circle .circle {
 	margin: 20px 0 0 20px;
 }
-#home_tratamientos li {
+#sec_especialidades li {
 	/*font-size: 30px;*/
 	color: #2db4b4;
 	font-size: 1.4em;
@@ -1072,18 +1080,18 @@ body.it #home_inicio article p {
 	/*margin-bottom: 12px;*/
 	margin-bottom: 0.75em;
 }
-#home_tratamientos li:hover {
+#sec_especialidades li:hover {
 	color: #3b65ac;
 }
-#home_tratamientos li:nth-of-type(even):hover {
+#sec_especialidades li:nth-of-type(even):hover {
 	color: #ff3385;
 	font-weight: bold;
 }
-#home_tratamientos li:nth-of-type(even) {
+#sec_especialidades li:nth-of-type(even) {
 	color: #FF7AAF;
 	font-weight: bold;
 }
-#home_tratamientos li:before {
+#sec_especialidades li:before {
 	content: "\f105";
 	display: inline-block;
 	font: normal normal normal 14px/1 FontAwesome;
@@ -1091,7 +1099,16 @@ body.it #home_inicio article p {
 	text-rendering: auto;
 	margin-right: 10px;
 }
+#esp-uro h1 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	text-align: center;
+}
 
+#esp-uro article ul li {
+	font-family: 'Roboto', sans-serif;
+	font-size:0.7em;
+}
 .full_title, body .full_title h3 {
 	color: #FF7AAF;
 }
@@ -1196,12 +1213,12 @@ INTERIOR TRATAMIENTO
 	background-color: #f9f9f9;
 }
 /* /////////Generales interior tratamiento*/
-.cab_tratamiento .vertical-center img {
+#home_inicio .vertical-center img {
 	display: inline-block;
 	margin-right: 20px;
 	max-width: 75px;
 }
-.cab_tratamiento h1{
+#home_inicio h1{
 	color: #166db2;
 	font-size: 33px;
 	text-transform: uppercase;
@@ -1546,11 +1563,11 @@ MEDIAS
 	    font-size: 30px;
 	    margin-left: -110px;
 	}
-	#home_tratamientos ul,
-	#home_tratamientos .box_circle {
+	#sec_especialidades ul,
+	#sec_especialidades .box_circle {
 		width: 350px;
 	}
-	#home_tratamientos li {
+	#sec_especialidades li {
 		font-size: 25px;
 	}
 }
@@ -1594,11 +1611,11 @@ MEDIAS
 	    line-height: 1.2em;
 	    margin-left: -100px;
 	}
-	#home_tratamientos li {
+	#sec_especialidades li {
 	    font-size: 20px;
 	}
-	#home_tratamientos ul,
-	#home_tratamientos .box_circle {
+	#sec_especialidades ul,
+	#sec_especialidades .box_circle {
 	    margin-right: 0;
 	}
 	/*Tratamientos*/
@@ -1803,16 +1820,16 @@ MEDIAS
 	body.it #home_inicio article p {
 	    margin-left: auto;
 	}
-	#home_tratamientos .box_circle {
+	#sec_especialidades .box_circle {
 		margin-bottom: 20px;
 	}
-	#home_tratamientos .box_circle .circle {
+	#sec_especialidades .box_circle .circle {
     	margin: 0 0 0 20px;
 	}
-	#home_tratamientos li {
+	#sec_especialidades li {
 	    font-size: 20px;
 	}
-	#home_tratamientos ul, #home_tratamientos .box_circle {
+	#sec_especialidades ul, #sec_especialidades .box_circle {
 	    float: none;
 	    width: auto;
 	    max-width: auto;
@@ -1821,7 +1838,7 @@ MEDIAS
 	    display: block;
 	    position: relative;
 	}
-	#home_tratamientos ul {
+	#sec_especialidades ul {
 	    margin-top: 20px;
 	}
 	/*Tratamientos*/
@@ -2284,4 +2301,21 @@ EQUIPO MEDICO
 #equipo-medico p {
 	padding: 0 1.5em;
 	text-align: justify;
+}
+
+/* -------------------------
+INTERNATIONAL: VISITORS;
+------------------------- */
+#international-visitors strong {
+	color: #00d6d6;
+}
+
+article h3 {
+		color: #2db4b4;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: 100;
+    margin-top: 20px;
+    margin-bottom: 20px;
+		font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
