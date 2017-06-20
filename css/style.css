@@ -1015,6 +1015,11 @@ HOME
 
 }
 
+section .line {
+	height: 1px;
+	background-color: #ff7aaf;
+}
+
 .presentacion {
 	margin-top: 2em;
 }
@@ -2318,4 +2323,11 @@ article h3 {
     margin-top: 20px;
     margin-bottom: 20px;
 		font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+#sec_especialidades .row {
+	margin:1em;
+	/*border-top:1px solid #ff7aaf;*/
+	border-bottom:1px solid #ff7aaf;
+	padding: 1em;
 }
