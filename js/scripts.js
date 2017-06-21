@@ -64,6 +64,9 @@ $(function() {
 			}
 		});
 	}
+
+	readyResize();
+
 });
 
 //Popup vídeo
