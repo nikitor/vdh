@@ -64,8 +64,11 @@ $(function() {
 			}
 		});
 	}
-
+// forzar que cargeu los eventos necesarios para activar submenus
 	readyResize();
+// forzar el recálculo para que aparezca el texto lateral centrado verticalmente en la seccion de portada
+// probar sin js con css: https://stackoverflow.com/questions/396145/how-to-vertically-center-a-div-for-all-browsers
+	calculaTamanio();
 
 });
 

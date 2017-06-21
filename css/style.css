@@ -1131,7 +1131,7 @@ body.it #home_inicio article p {
 #esp-uro h1 {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
-	text-align: center;
+	text-align: left;
 }
 
 #esp-uro article ul li {
@@ -1153,6 +1153,16 @@ body.it #home_inicio article p {
 #home #ventajas #listado_ventajas > .row:first-child {
 	margin-top: 80px;
 }
+/* -------------------------
+UROLOGIA
+------------------------- */
+#esp-uro ul{
+	width:100%;
+}
+#esp-uro ul{
+	font-size: 1.4em;
+}
+ /*#uro-amese*/
 /* -------------------------
 TRATAMIENTOS
 ------------------------- */
