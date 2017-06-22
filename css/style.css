@@ -1178,7 +1178,7 @@ UROLOGIA
 	font-weight: 100;
 	line-height: 1em;
 	text-transform: none;
-		color: #888;
+		color: #248f8f;
 }
 
 #esp-uro li:before {
@@ -1188,11 +1188,19 @@ UROLOGIA
 /*#esp-uro article li {
 	content: none;
 }*/
-
-#esp-uro h1, #esp-uro h2, #esp-uro h3 {
-	/*font-weight: 300;*/
+#esp-uro h1, #esp-uro article h2, #esp-uro article h3  {
 	text-align: left;
 }
+
+#esp-uro h1 {
+	color: #2db4b4;
+}
+
+#esp-uro h3 {
+	color: #248f8f
+}
+
+
 
 #esp-uro article ul li {
 	/*font-family: 'Roboto', sans-serif;*/
