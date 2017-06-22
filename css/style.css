@@ -1162,6 +1162,14 @@ body.it #home_inicio article p {
 #home #ventajas #listado_ventajas > .row:first-child {
 	margin-top: 80px;
 }
+
+/* -------------------------
+PREANESTESIA
+------------------------- */
+#esp-prea img {
+    width: 150px;
+    margin: 0 auto;
+}
 /* -------------------------
 UROLOGIA
 ------------------------- */
@@ -1204,14 +1212,18 @@ UROLOGIA
 #esp-uro article h2 {
 	line-height: 1.3em;
 }
-#esp-uro h1 {
+/*Estilo h1 Para el encabezado de servicios de Urología */
+#esp-uro  h1 {
 	color: #2db4b4;
+	font-weight: 400;
 }
-
+/*Estilo h1 Para los nombres de las áreas de los servicios de Urología, dentro de los servicios */
+#esp-uro li h1 {
+	font-weight: 100;
+}
 #esp-uro h3 {
 	color: #248f8f
 }
-
 
  /*#uro-amese*/
 /* -------------------------
