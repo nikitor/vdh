@@ -129,24 +129,24 @@ HEADERs
             <li><span>Sobre AM</span>
 
               <ul class="submenu">
-                <li><a href="/#quienes-somos">Quiénes Somos</a></li>
-                <li><a href="/#mision">Misión</a></li>
-                <li><a href="/#vision">Visión</a></li>
-                <li><a href="/#equipo-medico">Equipo Médico</a></li>
+                <li><a href="index.html#quienes-somos">Quiénes Somos</a></li>
+                <li><a href="index.html#mision">Misión</a></li>
+                <li><a href="index.html#vision">Visión</a></li>
+                <li><a href="index.html#equipo-medico">Equipo Médico</a></li>
               </ul>
             </li>
             <li><span>Servicios</span>
 
               <ul class="submenu">
                 <!-- <li><a href="UDI.html" data-url="#dignostico-imagen">Diagnóstico por Imagen</a></li> -->
-                <li><a href="/#diagnostico-por-imagen" data-url="#diagnostico-por-imagen">Diagnóstico por Imagen</a></li>
-                <li><a href="/#nutricion" data-url="#nutricion">Nutrición</a></li>
-                <li><a href="/#fisioterapia-osteopatia" data-url="#fisioterapia-osteopatia">Fisioterapia y Osteopatía</a></li>
-                <li><a href="/#sala-extracciones" data-url="#sala-extracciones">Sala de Extracciones</a></li>
+                <li><a href="index.html#diagnostico-por-imagen" data-url="#diagnostico-por-imagen">Diagnóstico por Imagen</a></li>
+                <li><a href="index.html#nutricion" data-url="#nutricion">Nutrición</a></li>
+                <li><a href="index.html#fisioterapia-osteopatia" data-url="#fisioterapia-osteopatia">Fisioterapia y Osteopatía</a></li>
+                <li><a href="index.html#sala-extracciones" data-url="#sala-extracciones">Sala de Extracciones</a></li>
               </ul>
 
             </li>
-            <li><a href="/#especialidades"><span>Especialidades</span></a>
+            <li><a href="index.html#especialidades"><span>Especialidades</span></a>
 
               <ul class="submenu">
                 <li><a href="https://ginexlab.com/">Reproducción Asistida</a></li>
@@ -165,11 +165,11 @@ HEADERs
             <li><a href="comunicacion"><span>Comunicación</span></a>
 
               <ul class="submenu">
-                <li><a href="/#noticias">Noticias</a></li>
-                <li><a href="/#compromiso-social">Compromiso social</a></li>
+                <li><a href="index.html#noticias">Noticias</a></li>
+                <li><a href="index.html#compromiso-social">Compromiso social</a></li>
               </ul>
             </li>
-            <li><span><a href="/#formacion-docencia" data-url="#formacion-docencia">Formación y Docencia</span></a>
+            <li><span><a href="index.html#formacion-docencia" data-url="#formacion-docencia">Formación y Docencia</span></a>
             </li>
           </ul>
         </nav>
@@ -231,26 +231,21 @@ MAIN
     <main>
 
 
-      <section id="pedir-cita-online" class="">
-        <!-- vision -->
-        <div class="full_title container-fluid">
-          <h2>Pedir cita online</h2>
-          <div class="circle">
-            <i class="fa fa-angle-down" aria-hidden="true"></i>
+      <section>
+        <div class="container ">
+          <div class="row">
+            <iframe id="ifrNewCitaOnline" src="http://gestorclinicas.medigest.com/cita_online.aspx?c=925AD8B34EBA3559E65A92F03EA47988" width="100%" height="100%" frameborder="0"></iframe>
+
+            <script type="text/javascript">
+              $(document).ready(function() {
+                var iframes = iFrameResize({
+                  log: false
+                });
+              });
+            </script>
           </div>
         </div>
-        <div class="clearfix"></div>
-
-        <div class="container-fluid">
-          <div class="row-fluid">
-            <div class="col-xs-12 col-sm-12">
-
-              <iframe id="ifrNewCitaOnline" src="http://gestorclinicas.medigest.com/cita_online.aspx?c=925AD8B34EBA3559E65A92F03EA47988" width="100%" height="100%" frameborder="0"></iframe>
-
-            </div>
-
       </section>
-
 
     </main>
     <!--/////////////
@@ -277,70 +272,45 @@ MAIN
           </nav>
         </div>
       </div>
-      <section id="legal" class="container">
-        <div class="row">
-          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-            <p>Todos los derechos reservados <br class="visible-xs">&#174; Arpa Médica 2017.</p>
-          </div>
-        </div>
-      </section>
     </footer>
-
-    </div>
-
-    <!-- POPUP Vídeo -->
-    <div id="video_bkg"></div>
-    <div id="video_popup">
-      <div class="popup_content">
-        <div class="popup_cerrar">
-          <span class="pe-7s-close"></span>
+    <section id="legal" class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <p>Todos los derechos reservados <br class="visible-xs">&#174; Arpa Médica 2017.</p>
         </div>
       </div>
-      <div id="video_ori" style="display:none"></div>
-    </div>
+    </section>
+
+  </div>
+
+  <!--JQUERY-->
+  <!-- <script type="text/javascript" src="js/jquery_v3.1.1.min.js"></script> -->
+  <!-- <script src="https://code.jquery.com/jquery-3.0.0.js"></script> -->
+
+  <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+
+  <script type="text/javascript" src="http://gestorclinicas.medigest.com/js/iframeResizer.min.js"></script>
 
 
-    <!-- Trigger the modal with a button -->
-
-    <!-- Modal -->
-    <div class="modal fade" id="myModal" role="dialog">
-      <div class="modal-dialog">
-
-        <!-- Modal content-->
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close popup_cerrar" data-dismiss="modal">&times;</button>
-          </div>
-          <div class="modal-body">
-            <!-- <iframe  id="iframe_cita_online" width="100%" height="100%" src="https://citas.vitaldent.com/ES" frameborder="0" allowfullscreen></iframe> -->
-          </div>
-        </div>
-
-      </div>
-    </div>
-
-    <!--JQUERY-->
-    <script type="text/javascript" src="js/jquery_v3.1.1.min.js"></script>
-
-    <script type="text/javascript" src="js/jquery.cookiesdirective.js"></script>
-    <!--COOKIES-->
+  <script type="text/javascript" src="js/jquery.cookiesdirective.js"></script>
+  <!--COOKIES-->
 
 
-    <!--BOOTSTRAP-->
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!--BOOTSTRAP-->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
 
 
-    <!--SCRIPTS ISBUT-->
-    <script type="text/javascript" src="js/scripts.js"></script>
+  <!--SCRIPTS ISBUT-->
+  <script type="text/javascript" src="js/scripts.js"></script>
 
-    <!-- FIXME script nuzhen? -->
-    <script type="text/javascript">
-      $(document).ready(function() {
-        var iframes = iFrameResize({
-          log: false
-        });
+  <!-- FIXME script nuzhen? -->
+  <script type="text/javascript">
+    $(document).ready(function() {
+      var iframes = iFrameResize({
+        log: false
       });
-    </script>
+    });
+  </script>
 
 </body>
 

@@ -68,7 +68,9 @@ $(function() {
 	readyResize();
 // forzar el recálculo para que aparezca el texto lateral centrado verticalmente en la seccion de portada
 // probar sin js con css: https://stackoverflow.com/questions/396145/how-to-vertically-center-a-div-for-all-browsers
-	calculaTamanio();
+//Al final consegui centrar el contenido verticalmente con HTML+CSS, sin necesidad de éste script de redimensión.En próximos
+// commits quitaré éste comentario y código comentado.
+	// calculaTamanio();
 
 });
 

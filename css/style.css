@@ -518,7 +518,8 @@ body.it .fixed_cita {
 }
 /* Titulares */
 #home section {
-	margin-top: 3em;
+	/*margin-top: 3em;*/
+	margin-top: 0em;
 }
 
 .full_title {
@@ -1064,22 +1065,27 @@ section .line {
 	margin: 0 0.5em;
 }
 
-#home_inicio article p strong {
+#home_inicio .lema strong {
 	color: #FF7AAF;
+	font-weight: bold;
 }
 
-#home_inicio article p.lema {
-	font-size: 2.37em;
+#home_inicio .lema {
 	/*font-size: 38px;*/
 	/*color: #1165ae;*/
 	/*color: #ff2a7f; rosa oscuro */
 	color: #2db4b4;
 	font-weight: 100;
 	text-transform: uppercase;
-	max-width: 425px;
-	/*margin-left: -210px;*/
-	/*margin-left: 0px;*/
+	/*max-width: 425px;*/
 }
+
+#home_inicio .lema p {
+	margin: 0.3em 0;
+	font-family: 'Roboto', sans-serif;
+	font-size: 2.37em;
+}
+
 body.it #home_inicio article p {
 	margin-left: 0;
 }
@@ -1245,12 +1251,32 @@ TRATAMIENTOS
 }
 
 /* -------------------------
+	PORTADA/INICIO
+------------------------- */
+/*.row-same-height{
+	display: table;
+}
+
+[class*="col-"] {
+	float: none;
+	display: table-cell;
+	vertical-align: top;
+}*/
+
+/* Fila que hace todas sus columnas de la misma altura. Necesario p.ej. para poder centrar verticalmente contenido en esas columnas, respecto a otras. */
+.igu {
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+}
+
+/* -------------------------
 INTERIOR TRATAMIENTO
 ------------------------- */
 /* /////////Implantología*/
-.cab_tratamiento {
+/*.cab_tratamiento {
 	background-color: #f9f9f9;
-}
+}*/
 /* /////////Generales interior tratamiento*/
 #home_inicio .vertical-center img {
 	display: inline-block;
@@ -1628,6 +1654,18 @@ MEDIAS
 			left: 1em;
 	}
 
+	header nav {
+	    /* margin-top: 20px; */
+	    margin-top: -0.5em;
+	    display: block;
+	    width: 100%;
+	    float: left;
+	    padding-left: 0px;
+	    font-weight: 100;
+	    color: #2db4b4;
+	    font-size: 0.9em;
+	    margin-left: 0em;
+	}
 
 	header.small_menu #top_menu {
 	    margin-top: 0;
@@ -1804,6 +1842,18 @@ MEDIAS
 	}
 }
 @media (max-width: 767px) {
+
+	.lema {
+	  /*display: block;
+	  flex-wrap: wrap;*/
+		margin-top: 1.5em;
+		margin-bottom: 3.6em;
+	}
+
+	#home_inicio .lema p {
+		margin: -0.2em 0;
+	}
+
 	/*Header */
 	header #logo {
 	    /* width: 306px; */
@@ -2385,4 +2435,32 @@ article h3 {
 	/*border-top:1px solid #ff7aaf;*/
 	border-bottom:1px solid #ff7aaf;
 	padding: 1em;
+}
+
+/* -------------------------
+Centrar verticalmente css, dentro de un bloque, como en https://stackoverflow.com/questions/396145/how-to-vertically-center-a-div-for-all-browsers
+El contenido a centrar:
+
+<bloque>
+	<.outer>
+		<.middle>
+			<.inner>
+				<contenido centrado respecto a 'bloque'>
+------------------------- */
+.outer {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.inner {
+    margin-left: auto;
+    margin-right: auto;
+    width: /*whatever width you want*/;
 }
