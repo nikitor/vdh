@@ -903,21 +903,26 @@ FOOTER
 }
 
 .ventaja img {
-    padding: 2em 2em 0 2em;
+    /*padding: 2em 2em 0 2em;*/    
+		padding: 3em 6em 0;
 }
-#ventajas .ventaja h3 {
+
+.ventaja h3 {
 	text-transform: uppercase;
 	/*color: #166db2;*/
 	color: #FF7AAF;
 	font-weight: bold;
-	margin: 8px 0 15px;
+	margin: 3px 0 15px;
+	text-align: center;
+	font-size: 1em;
 }
-#ventajas .ventaja p {
+.ventaja p {
 	max-width: 200px;
 	font-weight: 100;
 	margin: 0 auto;
 	font-size: 15px;
 	line-height: 1.2em;
+	text-align: center;
 }
 #p_consulta h2 {
 	color: #166db2;
@@ -1141,16 +1146,7 @@ body.it #home_inicio article p {
 #sec_especialidades .row-noborder .row {
 	border: 0;
 }
-#esp-uro h1 {
-	font-family: 'Roboto', sans-serif;
-	font-weight: 300;
-	text-align: left;
-}
 
-#esp-uro article ul li {
-	font-family: 'Roboto', sans-serif;
-	font-size:0.7em;
-}
 .full_title, body .full_title h3 {
 	color: #FF7AAF;
 }
@@ -1169,11 +1165,30 @@ body.it #home_inicio article p {
 /* -------------------------
 UROLOGIA
 ------------------------- */
-#esp-uro ul{
-	width:100%;
+#esp-uro {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1em;
+	color: #248f8f;
 }
-#esp-uro ul{
-	font-size: 1.4em;
+
+#sec_especialidades #esp-uro p, #sec_especialidades #esp-uro li {
+	font-size: 1em;
+	padding: 0;
+	margin: 1em 0;
+	font-weight: 100;
+	line-height: 1em;
+	text-transform: none;
+		/*color: #888;*/
+}
+
+#esp-uro h1, #esp-uro h2, #esp-uro h3 {
+	/*font-weight: 300;*/
+	text-align: left;
+}
+
+#esp-uro article ul li {
+	/*font-family: 'Roboto', sans-serif;*/
+	/*font-size:0.7em;*/
 }
  /*#uro-amese*/
 /* -------------------------
