@@ -1185,13 +1185,25 @@ UROLOGIA
 	content: none;
 }
 
-/*#esp-uro article li {
-	content: none;
-}*/
+#esp-uro ol li {
+	list-style-type: decimal;
+}
+#esp-uro ul {
+	/*width: 100%;*/
+	width: auto;
+	float:none;
+}
+#esp-uro ul li {
+	list-style-type: none;
+}
+
 #esp-uro h1, #esp-uro article h2, #esp-uro article h3  {
 	text-align: left;
 }
 
+#esp-uro article h2 {
+	line-height: 1.3em;
+}
 #esp-uro h1 {
 	color: #2db4b4;
 }
@@ -1201,11 +1213,6 @@ UROLOGIA
 }
 
 
-
-#esp-uro article ul li {
-	/*font-family: 'Roboto', sans-serif;*/
-	/*font-size:0.7em;*/
-}
  /*#uro-amese*/
 /* -------------------------
 TRATAMIENTOS
