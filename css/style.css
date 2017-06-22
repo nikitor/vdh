@@ -903,7 +903,7 @@ FOOTER
 }
 
 .ventaja img {
-    /*padding: 2em 2em 0 2em;*/    
+    /*padding: 2em 2em 0 2em;*/
 		padding: 3em 6em 0;
 }
 
@@ -1178,8 +1178,16 @@ UROLOGIA
 	font-weight: 100;
 	line-height: 1em;
 	text-transform: none;
-		/*color: #888;*/
+		color: #888;
 }
+
+#esp-uro li:before {
+	content: none;
+}
+
+/*#esp-uro article li {
+	content: none;
+}*/
 
 #esp-uro h1, #esp-uro h2, #esp-uro h3 {
 	/*font-weight: 300;*/
