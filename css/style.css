@@ -847,6 +847,23 @@ header.small_menu nav {
 header.small_menu #head-banner {
 	margin-left: -0.7em;
 }
+
+/* subseccion del submenu 'especialidades'. turquesa oscuro */
+li#seccion-menu-esp a {
+	color: #3b65ac;
+	font-size: 1em;
+	font-weight: 100;
+	font-family: 'Roboto', sans-serif;
+}
+/* submenu especialidades, color rosado*/
+header nav li > ul li a.submenu-esp {
+	color: #FF7AAF;
+}
+a.submenu-esp:hover {
+	color: #ff3385;
+}
+
+
 /* -------------------------
 AVISO DE COOKIES
 ------------------------- */
@@ -2347,6 +2364,7 @@ MEDIAS
 	header nav.show-submenu li {
 		position: initial;
 	}
+
 	header nav {
 		overflow-y: scroll;
 	}
