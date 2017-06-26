@@ -106,11 +106,11 @@ HEADERs
 					<!-- <p><span>Llámanos</span>  <a id="llamada-900-header" href="tel:900111003"><strong>900 111 003</strong></a></p> -->
 					<p class="headbanner"><a id="head-banner" href="index.html"><strong>ARPA MÉDICA</strong></a><span>
 					<ul id="share_icons" class="share_icons_head">
-						<li><a href="#" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-						<li><a href="#" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-						<li><a href="#" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-						<li><a href="#" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-						<li><a href="#" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+						<li><a href="#" target="_blank"><i class="fa fa-linkedin" aria-hidden="false"></i></a></li>
+						<li><a href="#" target="_blank"><i class="fa fa-twitter" aria-hidden="false"></i></a></li>
+						<li><a href="#" target="_blank"><i class="fa fa-facebook" aria-hidden="false"></i></a></li>
+						<li><a href="#" target="_blank"><i class="fa fa-google-plus" aria-hidden="false"></i></a></li>
+						<li><a href="#" target="_blank"><i class="fa fa-youtube" aria-hidden="false"></i></a></li>
 						<!-- FIXME faltan tumblr, pinterest, ver pagina actual -->
 					</ul>
 				</span></p>
@@ -305,15 +305,15 @@ MAIN
 
 	<!-- especialidades -->
 	<!-- <section id="sec_especialidades" class="m-t-xl"> -->
-	<section id="sec_especialidades" class="">
-		<div class="full_title container-fluid">
-			<h2>ESPECIALIDADES</h2>
-			<div class="circle">
-				<i class="fa fa-angle-down" aria-hidden="true"></i>
-			</div>
+	<div class="full_title container-fluid">
+		<h2>ESPECIALIDADES</h2>
+		<div class="circle">
+			<i class="fa fa-angle-down" aria-hidden="false" data-togg="#sec_especialidades"></i>
 		</div>
-		<div class="clearfix"></div>
-		<div class="container-fluid">
+	</div>
+	<div class="clearfix"></div>
+	<section id="sec_especialidades" class="contenido-colapsable">
+		<div class="container-fluid" aria-hidden="false">
 			<div class="row-fluid">
 				<div class="col-xs-12 col-sm-6 pull-right">
 					<!-- <img src="images/home/img_tratamientos.jpg" alt="Tratamientos" class="img img-responsive"> -->
@@ -793,16 +793,14 @@ MAIN
 
 	<!-- // fin especialidades -->
 
-	<section id="quienes-somos" class="">
-
-		<div class="full_title container-fluid">
-			<h2>Quiénes somos</h2>
-			<div class="circle">
-				<i class="fa fa-angle-down" aria-hidden="true"></i>
-			</div>
+	<div class="full_title container-fluid">
+		<h2>Quiénes somos</h2>
+		<div class="circle">
+			<i class="fa fa-angle-down" aria-hidden="false" data-togg="#quienes-somos"></i>
 		</div>
-		<div class="clearfix"></div>
-
+	</div>
+	<div class="clearfix"></div>
+	<section id="quienes-somos" class="">
 		<div class="container-fluid">
 			<div class="row-fluid">
 				<div class="col-xs-12 col-sm-6 pull-right">
@@ -847,14 +845,14 @@ MAIN
 	<!-- fin quienes somos -->
 
 	<!-- mision -->
-	<section id="mision" class="">
-		<div class="full_title container-fluid">
-			<h2>Misión</h2>
-			<div class="circle">
-				<i class="fa fa-angle-down" aria-hidden="true"></i>
-			</div>
+	<div class="full_title container-fluid">
+		<h2>Misión</h2>
+		<div class="circle">
+			<i class="fa fa-angle-down" aria-hidden="false" data-togg="#mision"></i>
 		</div>
-		<div class="clearfix"></div>
+	</div>
+	<div class="clearfix"></div>
+	<section id="mision" class="">
 
 		<div class="container-fluid">
 			<div class="row-fluid">
@@ -889,17 +887,17 @@ MAIN
 	</section>
 	<!-- fin  mision -->
 
-	<section id="vision" class="">
-		<!-- vision -->
-		<div class="full_title container-fluid">
-			<h2>Visión</h2>
-			<div class="circle">
-				<i class="fa fa-angle-down" aria-hidden="true"></i>
-			</div>
+	<!-- vision -->
+	<div class="full_title container-fluid">
+		<h2>Visión</h2>
+		<div class="circle">
+			<i class="fa fa-angle-down" aria-hidden="false" data-togg="#vision"></i>
 		</div>
-		<div class="clearfix"></div>
+	</div>
+	<div class="clearfix"></div>
+	<section id="vision" class="">
 
-		<div class="container-fluid">
+		<div class="container-fluid ">
 			<div class="row-fluid">
 				<div class="col-xs-12 col-sm-6 no-padding pull-right">
 
@@ -932,15 +930,15 @@ MAIN
 	<!-- fin vision -->
 
 
-	<section id="equipo-medico" class="m-t-xl">
-		<!-- equipo medico -->
-		<div class="full_title container-fluid">
-			<h2>EQUIPO MÉDICO</h2>
-			<div class="circle">
-				<i class="fa fa-angle-down" aria-hidden="true"></i>
-			</div>
+	<!-- equipo medico -->
+	<div class="full_title container-fluid">
+		<h2>EQUIPO MÉDICO</h2>
+		<div class="circle">
+			<i class="fa fa-angle-down" aria-hidden="false" data-togg="#equipo-medico"></i>
 		</div>
-		<div class="clearfix"></div>
+	</div>
+	<div class="clearfix"></div>
+	<section id="equipo-medico" class="m-t-xl">
 
 		<div class="container-fluid">
 			<div class="row-fluid">
@@ -1027,15 +1025,15 @@ MAIN
 
 
 	<!-- centros Arpa Médica -->
+	<div class="full_title container-fluid">
+		<h2>Centros</h2>
+		<div class="circle">
+			<i class="fa fa-angle-down" aria-hidden="false" data-togg="#centros"></i>
+		</div>
+	</div>
+	<div class="clearfix"></div>
 	<section id="centros" class="m-t-xl">
 		<!-- centros Arpa Médica -->
-		<div class="full_title container-fluid">
-			<h2>Centros</h2>
-			<div class="circle">
-				<i class="fa fa-angle-down" aria-hidden="true"></i>
-			</div>
-		</div>
-		<div class="clearfix"></div>
 		<!-- TODO añadir enlaces a tlf,mail,mapa google? -->
 		<div class="container-fluid">
 			<div class="row-fluid">
@@ -1075,14 +1073,15 @@ MAIN
 	<!-- fin centros Arpa Médica -->
 
 	<!-- galardones -->
-	<section id="galardones" class="m-t-xl">
-		<div class="full_title container-fluid">
-			<h2>Galardones</h2>
-			<div class="circle">
-				<i class="fa fa-angle-down" aria-hidden="true"></i>
-			</div>
+	<div class="full_title container-fluid">
+		<h2>Galardones</h2>
+		<div class="circle">
+			<i class="fa fa-angle-down" aria-hidden="false" data-togg="#galardones"></i>
 		</div>
-		<div class="clearfix"></div>
+	</div>
+	<div class="clearfix"></div>
+	<section id="galardones" class="m-t-xl">
+
 		<div class="container-fluid">
 			<div class="row-fluid">
 				<div class="col-sm-6 col-xs-12">
@@ -1120,14 +1119,14 @@ MAIN
 	<!-- fin galardones -->
 
 	<!-- aseguradoras -->
-	<section id="aseguradoras" class="m-t-xl">
-		<div class="full_title container-fluid">
-			<h2>Aseguradoras</h2>
-			<div class="circle">
-				<i class="fa fa-angle-down" aria-hidden="true"></i>
-			</div>
+	<div class="full_title container-fluid">
+		<h2>Aseguradoras</h2>
+		<div class="circle">
+			<i class="fa fa-angle-down" aria-hidden="false" data-togg="#aseguradoras"></i>
 		</div>
-		<div class="clearfix"></div>
+	</div>
+	<div class="clearfix"></div>
+	<section id="aseguradoras" class="m-t-xl">
 		<div class="container-fluid">
 			<div class="row-fluid">
 				<div class="col-sm-6 col-xs-12">
@@ -1173,17 +1172,15 @@ MAIN
 		-Fisioterapia y Osteopatía
 		-Sala de Extracciones
 -->
-
-	<section id="diagnostico-por-imagen" class="">
-		<!-- Diagnóstico por Imagen -->
-		<div class="full_title container-fluid">
-			<h2>Diagnóstico por Imagen</h2>
-			<div class="circle">
-				<i class="fa fa-angle-down" aria-hidden="true"></i>
-			</div>
+	<!-- Diagnóstico por Imagen -->
+	<div class="full_title container-fluid">
+		<h2>Diagnóstico por Imagen</h2>
+		<div class="circle">
+			<i class="fa fa-angle-down" aria-hidden="true" data-togg="#diagnostico-por-imagen"></i>
 		</div>
-		<div class="clearfix"></div>
-
+	</div>
+	<div class="clearfix"></div>
+	<section id="diagnostico-por-imagen" class="">
 		<div class="container-fluid">
 			<div class="row-fluid">
 				<div class="col-xs-12 col-sm-6 no-padding pull-right">
@@ -1228,15 +1225,15 @@ MAIN
 	</section>
 	<!-- fin de Diagnóstico por Imagen -->
 
-	<section id="nutricion" class="">
-		<!-- Nutrición -->
-		<div class="full_title container-fluid">
-			<h2>Nutrición</h2>
-			<div class="circle">
-				<i class="fa fa-angle-down" aria-hidden="true"></i>
-			</div>
+	<!-- Nutrición -->
+	<div class="full_title container-fluid">
+		<h2>Nutrición</h2>
+		<div class="circle">
+			<i class="fa fa-angle-down" aria-hidden="false" data-togg="#nutricion"></i>
 		</div>
-		<div class="clearfix"></div>
+	</div>
+	<div class="clearfix"></div>
+	<section id="nutricion" class="">
 
 		<div class="container-fluid">
 			<div class="row-fluid">
@@ -1266,15 +1263,14 @@ MAIN
 	<!-- fin Nutrición -->
 
 	<!-- Fisioterapia y Osteopatía -->
-	<section id="fisioterapia-osteopatia" class="">
-		<div class="full_title container-fluid">
-			<h2>Fisioterapia y osteopatía</h2>
-			<div class="circle">
-				<i class="fa fa-angle-down" aria-hidden="true"></i>
-			</div>
+	<div class="full_title container-fluid">
+		<h2>Fisioterapia y osteopatía</h2>
+		<div class="circle">
+			<i class="fa fa-angle-down" aria-hidden="false" data-togg="#fisioterapia-osteopatia"></i>
 		</div>
-		<div class="clearfix"></div>
-
+	</div>
+	<div class="clearfix"></div>
+	<section id="fisioterapia-osteopatia" class="">
 		<div class="container-fluid">
 			<div class="row-fluid">
 				<div class="col-xs-12 col-sm-6 no-padding pull-right">
@@ -1293,19 +1289,17 @@ MAIN
 		</div>
 
 	</section>
-
-	<!-- /Fisioterapia y Osteopatía -->
+	<!-- fin Fisioterapia y Osteopatía -->
 
 	<!-- Sala de Extracciones -->
-	<section id="sala-extracciones" class="">
-
-		<div class="full_title container-fluid">
-			<h2>Sala de Extracciones</h2>
-			<div class="circle">
-				<i class="fa fa-angle-down" aria-hidden="true"></i>
-			</div>
+	<div class="full_title container-fluid">
+		<h2>Sala de Extracciones</h2>
+		<div class="circle">
+			<i class="fa fa-angle-down" aria-hidden="false" data-togg="#sala-extracciones"></i>
 		</div>
-		<div class="clearfix"></div>
+	</div>
+	<div class="clearfix"></div>
+	<section id="sala-extracciones" class="">
 		<div class="container-fluid">
 			<div class="row-fluid">
 				<article class="col-xs-12 col-sm-6" id="txt-sala-extracciones">
@@ -1344,18 +1338,21 @@ MAIN
 
 
 	<!-- Comunicacion   -->
-	<!-- noticias -->
-	<!-- TODO -->
-	<section id="noticias" class="">
+	<!--
+		   -noticias
+	     -Compromiso social
+	-->
 
-		<div class="full_title container-fluid">
-			<h2>Noticias</h2>
-			<div class="circle">
-				<i class="fa fa-angle-down" aria-hidden="true"></i>
-			</div>
+	<!-- noticias -->
+	<div class="full_title container-fluid">
+		<h2>Noticias</h2>
+		<div class="circle">
+			<i class="fa fa-angle-down" aria-hidden="false" data-togg="#noticias"></i>
 		</div>
-		<div class="clearfix"></div>
-		<div class="container-fluid">
+	</div>
+	<div class="clearfix"></div>
+	<section id="noticias" class="">
+		<div class="container-fluid ocultable">
 			<div class="row-fluid">
 				<article class="col-xs-12 col-sm-12" id="txt-noticias">
 					<!-- texto -->
@@ -1363,7 +1360,7 @@ MAIN
 						<div class="imagen">
 							<img src="img/noticias/precongen.jpeg">
 							<div class="nombre2">
-								<h2> Arpa Médica presente en la presentación de Precongen,</h2>
+								<h2>Arpa Médica presente en la presentación de Precongen,</h2>
 								<h3>un test que revolucionará la prevención de enfermedades </h3>
 							</div>
 						</div>
@@ -1506,16 +1503,15 @@ MAIN
 	<!--fin noticias -->
 
 	<!-- compromiso social -->
+	<div class="full_title container-fluid">
+		<h2>Compromiso social</h2>
+		<div class="circle">
+			<i class="fa fa-angle-down" aria-hidden="false" data-togg="#compromiso-social"></i>
+		</div>
+	</div>
+	<div class="clearfix"></div>
 	<section id="compromiso-social" class="">
 		<!-- TODO mejorar formato de compromiso social ?-->
-
-		<div class="full_title container-fluid">
-			<h2>Compromiso social</h2>
-			<div class="circle">
-				<i class="fa fa-angle-down" aria-hidden="true"></i>
-			</div>
-		</div>
-		<div class="clearfix"></div>
 		<div class="container-fluid">
 			<div class="row-fluid">
 				<article class="col-xs-12 col-sm-6" id="txt-compromiso-social">
@@ -1541,15 +1537,14 @@ MAIN
 	</section>
 
 	<!-- Formación y Docencia			 -->
-	<section id="formacion-docencia" class="">
-
-		<div class="full_title container-fluid">
-			<h2>Formación y docencia</h2>
-			<div class="circle">
-				<i class="fa fa-angle-down" aria-hidden="true"></i>
-			</div>
+	<div class="full_title container-fluid">
+		<h2>Formación y docencia</h2>
+		<div class="circle">
+			<i class="fa fa-angle-down" aria-hidden="false" data-togg="#formacion-docencia"></i>
 		</div>
-		<div class="clearfix"></div>
+	</div>
+	<div class="clearfix"></div>
+	<section id="formacion-docencia" class="">
 		<div class="container-fluid">
 			<div class="row-fluid">
 				<article class="col-xs-12 col-sm-6" id="txt-formacion-docencia">
@@ -1571,15 +1566,14 @@ MAIN
 
 
 	<!-- International visitors	 -->
-	<section id="international-visitors" class="">
-
-		<div class="full_title container-fluid">
-			<h2>International Visitors</h2>
-			<div class="circle">
-				<i class="fa fa-angle-down" aria-hidden="true"></i>
-			</div>
+	<div class="full_title container-fluid">
+		<h2>International Visitors</h2>
+		<div class="circle">
+			<i class="fa fa-angle-down" aria-hidden="false" data-togg="#international-visitors"></i>
 		</div>
-		<div class="clearfix"></div>
+	</div>
+	<div class="clearfix"></div>
+	<section id="international-visitors" class="">
 		<div class="container-fluid">
 			<div class="row-fluid">
 				<div class="col-xs-12 col-sm-6"><img src="img/visitors/internationalvisitors1.jpg" class="form-group img-responsive"></div>
@@ -1677,15 +1671,14 @@ MAIN
 	<!-- fin International visitors -->
 
 	<!-- Contacto	 -->
-	<section id="contacto" class="">
-
-		<div class="full_title container-fluid">
-			<h2>Contacto</h2>
-			<div class="circle">
-				<i class="fa fa-angle-down" aria-hidden="true"></i>
-			</div>
+	<div class="full_title container-fluid">
+		<h2>Contacto</h2>
+		<div class="circle">
+			<i class="fa fa-angle-down" aria-hidden="false" data-togg="#contacto"></i>
 		</div>
-		<div class="clearfix"></div>
+	</div>
+	<div class="clearfix"></div>
+	<section id="contacto" class="">
 		<div class="container-fluid">
 			<div class="row-fluid">
 				<article class="col-xs-12 col-sm-6" id="txt-contacto">
@@ -1711,18 +1704,17 @@ MAIN
 			<div class="row">
 				<nav class="col-xs-12">
 
+					<!-- TODO paginas del footer -->
+					<!-- Mapa Web | Aviso Legal | Protección de Datos | Política de Cookies | Accesibilidad -->
+
 					<ul>
 						<li><a href="#contacto">Contacto</a></li>
 						<li><a href="#">Únete a nosotros</a></li>
 						<li><a href="#">Política Privacidad</a></li>
 						<li><a href="#">Términos legales</a></li>
 						<li><a href="#">Política de cookies</a></li>
-
-						<!-- <li><a href="mailto:atencionalpaciente@vitaldent.com">Contacto</a></li>
-							<li><a href="unete-a-nosotros/index.html">Únete a nosotros</a></li>
-							<li><a href="politica-de-privacidad/index.html">Política Privacidad</a></li>
-							<li><a href="terminos-legales/index.html">Términos legales</a></li>						<li><a href="politica-de-cookies/index.html">Política de cookies</a></li> -->
 					</ul>
+
 				</nav>
 			</div>
 		</div>
@@ -1796,6 +1788,7 @@ MAIN
 
 	<!--SCRIPTS ISBUT-->
 	<script type="text/javascript" src="js/scripts.js"></script>
+	<script type="text/javascript" src="js/moyscript.js"></script>
 
 </body>
 

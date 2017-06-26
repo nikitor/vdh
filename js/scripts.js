@@ -64,13 +64,18 @@ $(function() {
 			}
 		});
 	}
-// forzar que cargeu los eventos necesarios para activar submenus
+// forzar que cargue los eventos necesarios para activar submenus
 	readyResize();
 // forzar el recálculo para que aparezca el texto lateral centrado verticalmente en la seccion de portada
 // probar sin js con css: https://stackoverflow.com/questions/396145/how-to-vertically-center-a-div-for-all-browsers
 //Al final consegui centrar el contenido verticalmente con HTML+CSS, sin necesidad de éste script de redimensión.En próximos
 // commits quitaré éste comentario y código comentado.
 	// calculaTamanio();
+
+//cerrar secciones
+// $($("[data-togg]").map(function() {
+//     return $(this).data("togg");
+//   }).get().join(',')).hide();
 
 });
 
@@ -206,6 +211,26 @@ $(window).scroll(function() {
 
 });
 
+
+
+/* Los elementos que pueden hacer un toggleSlide, almacenan
+en su atributo data-togg el ID del elemento objetido*/
+var slideTogglers = $("[data-togg]");
+
+
+/* Los elementos con atributo 'data-togg',
+que indica el id  del elemento objetivo,
+pueden mostrarlo/ocultarlo con efecto slide
+al recibir el evento "click".
+*/
+function activarSlideTogglers() {
+	slideToggleTargets.click(function(){
+		var toggleTarget = $(this).data("togg");
+		toggleTarget.slideToggle(400,"linear")})
+}
+
+function cerrarSlides() {
+}
 
 function calculaTamanio() {
 

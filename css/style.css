@@ -1237,6 +1237,7 @@ UROLOGIA
 /*Estilo h1 Para los nombres de las áreas de los servicios de Urología, dentro de los servicios */
 #esp-uro li h1 {
 	font-weight: 100;
+	line-height: 1em;
 }
 #esp-uro h3 {
 	color: #248f8f
