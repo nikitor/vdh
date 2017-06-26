@@ -576,6 +576,11 @@ section article h2 {
 	font-weight: 100;
 	text-align: center;
 }
+
+.circle .fa {
+	display: block;
+}
+
 .circle.ver_mas {
 	height: 28px;
 	width: 28px;
