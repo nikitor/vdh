@@ -13,6 +13,7 @@
   identificado por el selector CSS "#id-ab" */
   var sectionTogglers;
 
+
    // The global jQuery object is passed as a parameter, takim obrazom
    // ya zahvatil i perevozhu vneshniy window.jQuery, i vyzvav sleduyushuyu
    //funcciyu [function($, window, document)], v kotoryj etot argument pereimenovan v $,
@@ -29,6 +30,7 @@
 
        $(function() {
 
+
          sectionTogglers = getSectionTogglers();
          idsOcultables = getStringIdsOcultables();
 
@@ -37,6 +39,8 @@
 
            zakroySekcii();
            bindTogglers();
+
+           bindOpenparentsNavLinks();
 
           //  $($("[data-togg]").map(function() {
           //      return $(this).data("togg");
@@ -86,4 +90,91 @@
          console.log("togglerUIStateClasses: " + togglerUIStateClasses);
          $(this).toggleClass(togglerUIStateClasses);
        }
+
+
+      // bind open parents of section on click on nav anchors, before scrolling to section
+      function bindOpenparentsNavLinks(){
+        $("nav li a").on("click",function(e){
+          let requestedSecId = $(this).attr("href");
+          console.log("ir a seccion cuyo id es " + requestedSecId);
+          unveilSection(requestedSecId);
+        })
+      }
+
+
+
+    //    // id : id seccion en notacion de selector CSS.P.ej.: #id-seccion
+    //    function getParentIds(id){
+     //
+    //     a=[];
+    //     a.push[id];
+    //     // a=new Array.push(id);
+    //     let parentsIds = $(+id).parents("section").map(function(){return this.id});
+    //     // vse id vklyuchaya pervyj celevoj
+    //     a.push(parentsIds);
+    //    }
+     //
+    //    function printTogglerIds(aIds){
+    //      $.each(aIds,function(i,v){console.log($("[data-togg='"+v+"']"))})
+    //    }
+
+
      }));
+
+
+    //  function getParentIds(id){
+      //  var id="esp-uro";
+      // a=[];
+      // a.push(id);
+      // console.log("id seccion -->" + a)
+      // a=new Array.push(id);
+      // let parentsIds = $(id).parents("section").map(function(){return "#"+this.id}).get();
+      // a.merge(parentsIds);
+      // console.dir(a);
+      // parentsIds.each(function(i,v){console.log("-->"+v)});
+      // vse id vklyuchaya pervyj celevoj
+      // return a;
+
+
+      // id : id seccion en notacion de selector CSS.P.ej.: #id-seccion
+      function getParentIds(id){
+         let a=[];
+         a.push(id);
+         //console.log("id seccion -->" + a)
+         let parentsIds = $(id).parents("section").map(function(){return "#"+this.id}).get();
+         c = a.concat(parentsIds);
+         a = parentsIds = null; // `a` and `parentsIds` can go away now. unset a and b so they are garbage collected
+
+         // FIXME remove debug prints:
+         // print parent sections ids
+         $(c).each(function(i,v){console.debug("section -> "+v)})
+         return c;
+     }
+
+
+
+     function unveilSections(aIds){
+
+       $.each(aIds.reverse(),function(i,v){
+         let targetSecId = v;
+         let $sec = $(targetSecId);
+         if($sec.length<1){console.log("no se ha encontrado ningun elemento para id = " + v); return -1;}
+         console.log("unveilSection_section id = " + v);
+         if($sec.is(":hidden")){
+           console.log("section id= "+v+" hidden");
+           let knopka = $("[data-togg='" + targetSecId + "']");
+           if (knopka.length > 0){
+             console.debug("clicking button" + knopka);
+             knopka.click()
+             console.log("section id " + v + "now visible? " + $sec.is(":visible"));
+           }
+         }else{
+           console.log("section id= "+v+" visible");
+         }
+       });
+     }
+
+    //  Gets section id parents, then unveils them in reverse order, from top to down until reaching target id
+     function unveilSection(secId){
+       unveilSections(getParentIds(secId));
+     }

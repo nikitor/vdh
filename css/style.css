@@ -2705,7 +2705,7 @@ El contenido a centrar:
   right: 0;
   /*font-family: 'Fira Sans';*/
   font-family: 'Roboto';
-  padding-top: 9%;
+  padding-top: 7%;
   /* opacity: 0.7; */
 }
 /*@media (max-width: 450px) {
@@ -2713,7 +2713,7 @@ El contenido a centrar:
     padding-top: 35%;
 	}
 }*/
-@media (max-width: 768px) {
+/*@media (max-width: 768px) {
 	.cita-medigest-title{
     padding-top: 13%;
 	}
@@ -2726,5 +2726,15 @@ El contenido a centrar:
 @media (max-width: 450px) {
 	.cita-medigest-title{
     padding-top: 35%;
+	}
+}*/
+
+/*.cita-medigest-title{
+	padding-top: 2%;
+}*/
+
+@media (max-width: 706px) {
+	.cita-medigest-title{
+    padding-top: 2%;
 	}
 }
