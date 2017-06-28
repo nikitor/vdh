@@ -56,7 +56,7 @@
        function zakroySekcii(){
          //check string idsOcultables, empty? undefined?
          $(idsOcultables).hide();
-         console.log("---secciones ocultas.")
+         console.log("---sections : hidden.")
        }
 
        // Devuelve string de ids de secciones ocultables separados por comas
@@ -95,11 +95,32 @@
       // bind open parents of section on click on nav anchors, before scrolling to section
       function bindOpenparentsNavLinks(){
         $("nav li a").on("click",function(e){
-          let requestedSecId = $(this).attr("href");
+          $link=$(this);
+          let requestedSecId = $link.attr("href");
           console.log("ir a seccion cuyo id es " + requestedSecId);
+          // si seccion visible sale, no hay que hacer nada
+          if($(requestedSecId).is(':visible')) return;
+          e.preventDefault();
+          e.stopPropagation();
           unveilSection(requestedSecId);
+          $link.trigger('click');
+
+          // Scroll to section
+
+          // let $container = $(document) // container = $('div'),
+          // let $scrollTo = $(requestedSecId);
+
+          // container.scrollTop(
+          //     scrollTo.offset().top - container.offset().top + container.scrollTop()
+          //   );
+
+          // Or you can animate the scrolling:
+          // $container.animate({
+          //   scrollTop: $scrollTo.offset().top - $container.offset().top + $container.scrollTop()
+          // });
         })
-      }
+     }
+
 
 
 
