@@ -91,7 +91,8 @@ HEADERs
           <option value="ru" >Russian</option>
           <!-- arabic -->
           <option value="ar" >العَرَبِيَّة</option>
-          <option value="ar" >Arabic</option>
+          <option value="fr">Français</option>
+          <option value="de">Deutsch</option>
           <!-- chinese -->
           <option value="ch" >中文</option>
         </select>
@@ -103,7 +104,7 @@ HEADERs
               </a>
             </div>
             <div id="area-visitor" class="area_paciente">
-              <a href="index.html#international-visitors" target="_blank">
+              <a href="index.html#international-visitors">
         <img src="img/icon_visitors.svg" alt="International visitors" class="img img-responsive">
         <span>International visitors</span>
         </a>
@@ -128,9 +129,9 @@ HEADERs
 
           <ul>
             <!-- <li onclick="window.open('index.html','_self')"> -->
-            <li><span><a href="index.html#home_inicio">Inicio</span></a>
+            <li><a href="index.html#home_inicio"><span class="lang-val-es">Inicio</span><span class="lang-val-en">Home</span><span class="lang-val-ru">Главная</span></a>
             </li>
-            <li><span>Sobre AM</span>
+            <li><span class="lang-val-es">Sobre AM</span><span class="lang-val-en">About AM</span><span class="lang-val-ru">О AM</span>
 
               <ul class="submenu">
                 <li><a href="index.html#quienes-somos">Quiénes Somos</a></li>
@@ -143,7 +144,7 @@ HEADERs
                 </li>
               </ul>
             </li>
-            <li><span>Especialidades</span>
+            <li><span class="lang-val-es">Especialidades</span><span class="lang-val-en">Specialities</span><span class="lang-val-ru">Специальности</span>
 
               <ul class="submenu">
                 <!-- <li><a href="UDI.html" data-url="#dignostico-imagen">Diagnóstico por Imagen</a></li> -->
@@ -165,22 +166,10 @@ HEADERs
               </ul>
               <!-- <li id="seccion-menu-esp"><a href="#especialidades" data-url="#especialidades">Especialidades</a> -->
 
-              <!-- <ul> -->
-
-              <!-- .........
-                  TODO
-                  Diagnóstico por imagen
-                  Nutricion
-                  Fisioterapia
-                  Sala de extracciones
-
-                  Deberian ir dentro de especialidades -->
-
-              <!-- </ul> -->
             </li>
             <li><span><a href="index.html#ginexlab" data-url="#ginexlab">ginexlab</span></a>
             </li>
-            <li><a href="index.html#comunicacion"><span>Comunicación</span></a>
+            <li><a href="index.html#comunicacion"><span class="lang-val-es">Comunicación</span><span class="lang-val-en">Communication</span></a>
 
               <ul class="submenu">
                 <li><a href="index.html#noticias">Noticias</a></li>
@@ -189,7 +178,7 @@ HEADERs
             </li>
             <li><span><a href="index.html#formacion-docencia" data-url="#formacion-docencia">Formación y Docencia</span></a>
             </li>
-            <li><span><a href="index.html#contacto" data-url="#contacto">Contacto</span></a>
+            <li><a href="index.html#contacto" data-url="#contacto"><span class="lang-val-es">Contacto</span><span class="lang-val-en">Contact</span><span class="lang-val-ru">Контакт</span></a>
             </li>
           </ul>
         </nav>
@@ -204,9 +193,9 @@ HEADERs
                 <span class="bottom"></span>
             </button>
           </div>
-          <!-- <a href="tel:900111003">
+          <a href="tel:900111003">
             <i class="fa fa-phone" aria-hidden="true"></i>
-          </a> -->
+          </a>
           <!-- <a href="https://zonapaciente.vitaldent.com:8023/" target="_blank"> -->
           <a href="c_previa.html" target="_blank">
         <img src="img/icon_paciente3.svg" alt="Área paciente" class="img img-responsive">
@@ -215,7 +204,10 @@ HEADERs
           <option value="es" selected="selected"> Español</option>
           <option value="en"> English</option>
           <option value="ru"> Russian</option>
+          <option value="fr">Français</option>
+          <option value="de">Deutsch</option>
           <option value="ar"> Arabic</option>
+          <option value="ar"> Chinese</option>
       </select>
         </div>
         <!--//botones móvil-->
@@ -224,6 +216,7 @@ HEADERs
       </div>
     </div>
   </header>
+
   <div class="extra_header"></div>
   <!--/////////////
 MAIN
@@ -261,10 +254,10 @@ MAIN
           <nav class="col-xs-12">
 
             <ul>
-              <li><a href="#">Contacto</a></li>
-              <li><a href="#">Política Privacidad</a></li>
-              <li><a href="#">Términos legales</a></li>
-              <li><a href="#">Política de cookies</a></li>
+              <li><a href="index.html#">Contacto</a></li>
+              <li><a href="index.html#">Política Privacidad</a></li>
+              <li><a href="index.html#">Términos legales</a></li>
+              <li><a href="index.html#">Política de cookies</a></li>
 
               <!-- <li><a href="mailto:atencionalpaciente@vitaldent.com">Contacto</a></li>
 						<li><a href="unete-a-nosotros/index.html">Únete a nosotros</a></li>

@@ -2846,3 +2846,15 @@ El contenido a centrar:
     padding-top: 2%;
 	}
 }
+
+.keepratio {
+	/*padding-top %  is relative to container*/
+	padding-top:56.25%;
+}
+
+#esp-prea{
+	line-height: normal;
+}
+#sec_especialidades strong [id^=esp-]{
+	color:#00d6d6;
+}
