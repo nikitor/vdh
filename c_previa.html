@@ -74,52 +74,56 @@
 HEADERs
 ////////////////-->
   <header>
-    <div class="container">
+    <div class="container top-panel">
       <div class="row">
         <div class="col-xs-12" id="menu_sup">
           <a href="index.html">
             <!-- <img id="logo" src="images/logo_vitaldent.png" class="img img-responsive" alt="Vitaldent"> -->
             <!-- <img id="logo" src="img/logo-arpa2.png" class="img img-responsive" alt="Arpa médica"> -->
-            <img id="logo" src="img/logoam2.svg" class="img img-responsive" alt="Arpa médica">
+            <img id="logo" src="img/logoam2.svg" class="img img-responsive hidden-md hidden-lg" alt="Arpa médica">
           </a>
 
+          <!-- Español,  English, Chinese, Russian, Arab, French  -->
           <div id="top_menu" class="pull-right">
             <select id="lang-select" class="lang-select">
-						<option value="es" selected="selected">Español</option>
-						<option value="es" >English</option>
-						<option value="es" >Russian</option>
-					</select>
+          <option value="es" selected="selected">Español</option>
+          <option value="en" >English</option>
+          <option value="ru" >Russian</option>
+          <!-- arabic -->
+          <option value="ar" >العَرَبِيَّة</option>
+          <option value="ar" >Arabic</option>
+          <!-- chinese -->
+          <option value="ch" >中文</option>
+        </select>
             <div id="area-paciente" class="area_paciente">
-              <a href="#" target="_blank">
+              <a href="c_previa.html" target="_blank">
                 <!-- <img src="img/icon_paciente.png" alt="Área paciente" class="img img-responsive"> -->
                 <img src="img/icon_paciente3.svg" alt="Área paciente" class="img img-responsive">
                 <span>Área <br>pacientes</span>
               </a>
             </div>
             <div id="area-visitor" class="area_paciente">
-              <a href="#" target="_blank">
-					<img src="img/icon_visitors.svg" alt="International visitors" class="img img-responsive">
-					<span>International visitors</span>
-					</a>
+              <a href="index.html#international-visitors" target="_blank">
+        <img src="img/icon_visitors.svg" alt="International visitors" class="img img-responsive">
+        <span>International visitors</span>
+        </a>
             </div>
           </div>
           <!-- <p><span>Llámanos</span>  <a id="llamada-900-header" href="tel:900111003"><strong>900 111 003</strong></a></p> -->
-          <p><a id="head-banner" href="index.html"><strong>ARPA MÉDICA</strong></a><span>
-					<ul id="share_icons" class="share_icons_head">
-						<li><a href="#" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-						<li><a href="#" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-						<li><a href="#" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-						<li><a href="#" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-						<li><a href="#" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
-						<!-- FIXME faltan tumblr, pinterest, ver pagina actual -->
-					</ul>
-				</span></p>
+          <p class="headbanner"><a id="head-banner" href="index.html"><strong>ARPA MÉDICA</strong></a><span>
+        <ul id="share_icons" class="share_icons_head">
+          <li><a href="https://www.twitter.com/arpamedica_com" target="_blank"><i class="fa fa-twitter" ></i></a></li>
+          <li><a href="https://www.facebook.com/arpamedicacom" target="_blank"><i class="fa fa-facebook" ></i></a></li>
+          <li><a href="https://www.youtube.com/channel/UCJkvWZHcT3vHO-XLES-9WhQ/videos" target="_blank"><i class="fa fa-youtube" ></i></a></li>
+          <li><a href="https://www.instagram.com/arpamedica_com" target="_blank"><i class="fa fa-instagram" ></i></a></li>
+        </ul>
+      </span></p>
         </div>
         <nav>
           <a href="index.html">
             <!-- <img id="small_logo" src="images/logo_vitaldent.png" class="img img-responsive" alt="Vitaldent"> -->
             <!-- <img id="small_logo" src="img/logo-arpa.png" class="img img-responsive" alt="Vitaldent"> -->
-            <img id="small_logo" src="img/icon_cita.svg" class="img img-responsive hidden-md hidden-lg" alt="Vitaldent">
+            <img id="small_logo" src="img/logoamebi.svg" class="img img-responsive hidden-sm hidden-xs" alt="Enlace inicio Arpa Médica">
           </a>
 
           <ul>
@@ -130,39 +134,53 @@ HEADERs
 
               <ul class="submenu">
                 <li><a href="index.html#quienes-somos">Quiénes Somos</a></li>
-                <li><a href="index.html#mision">Misión</a></li>
-                <li><a href="index.html#vision">Visión</a></li>
                 <li><a href="index.html#equipo-medico">Equipo Médico</a></li>
+                <li><a href="index.html#centros">Nuestros centros</a></li>
+                <li><a href="index.html#vision">Visión</a></li>
+                <li><a href="index.html#mision">Misión</a></li>
+                <li><a href="index.html#galardones">Galardones</a>
+                  <li><a href="index.html#aseguradoras">Aseguradoras</a></li>
+                </li>
               </ul>
             </li>
-            <li><span>Servicios</span>
+            <li><span>Especialidades</span>
 
               <ul class="submenu">
                 <!-- <li><a href="UDI.html" data-url="#dignostico-imagen">Diagnóstico por Imagen</a></li> -->
+                <li><a href="index.html#esp-reas" class="">Reproducción Asistida</a></li>
+                <li><a href="index.html#esp-angcivaca" class="">Angiología, Cirugía Vascular y Cardiología</a></li>
+                <li><a href="index.html#esp-ciplesre" class="">Cirugía Plástica, Estética y Reparadora</a></li>
+                <li><a href="index.html#esp-cigedi" class="">Cirugía General y Digestivo</a></li>
+                <li><a href="index.html#esp-giob" class="">Ginecología y Obstetricia</a></li>
+                <li><a href="index.html#esp-mein" class="">Medicina Interna</a></li>
+                <li><a href="index.html#esp-onco" class="">Oncología</a></li>
+                <li><a href="index.html#esp-pediatria" class="">Pediatría</a></li>
+                <li><a href="index.html#esp-prea" class="">Preanestesia</a></li>
+                <li><a href="index.html#esp-psiclisa" class="">Psicología Clínica y Sanitaria</a></li>
+                <li><a href="index.html#esp-uro" class="">Urología</a></li>
                 <li><a href="index.html#diagnostico-por-imagen" data-url="#diagnostico-por-imagen">Diagnóstico por Imagen</a></li>
                 <li><a href="index.html#nutricion" data-url="#nutricion">Nutrición</a></li>
                 <li><a href="index.html#fisioterapia-osteopatia" data-url="#fisioterapia-osteopatia">Fisioterapia y Osteopatía</a></li>
                 <li><a href="index.html#sala-extracciones" data-url="#sala-extracciones">Sala de Extracciones</a></li>
               </ul>
+              <!-- <li id="seccion-menu-esp"><a href="#especialidades" data-url="#especialidades">Especialidades</a> -->
 
-            </li>
-            <li><a href="index.html#especialidades"><span>Especialidades</span></a>
+              <!-- <ul> -->
 
-              <ul class="submenu">
-                <li><a href="https://ginexlab.com/">Reproducción Asistida</a></li>
-                <li><a href="ACVC.html">Angiología, Cirugía Vascular y Cardiología</a></li>
-                <li><a href="CPER.html">Cirugía Plástica, Estética y Reparadora</a></li>
-                <li><a href="CGD.html">Cirugía General y Digestivo</a></li>
-                <li><a href="GO.html">Ginecología y Obstetricia</a></li>
-                <li><a href="MI.html">Medicina Interna</a></li>
-                <li><a href="Onc.html">Oncología</a></li>
-                <li><a href="Ped.html">Pediatría</a></li>
-                <li><a href="Prea.html">Preanestesia</a></li>
-                <li><a href="PCS.html">Psicología Clínica y Sanitaria</a></li>
-                <li><a href="urologia.html">Urología</a></li>
-              </ul>
+              <!-- .........
+                  TODO
+                  Diagnóstico por imagen
+                  Nutricion
+                  Fisioterapia
+                  Sala de extracciones
+
+                  Deberian ir dentro de especialidades -->
+
+              <!-- </ul> -->
             </li>
-            <li><a href="comunicacion"><span>Comunicación</span></a>
+            <li><span><a href="index.html#ginexlab" data-url="#ginexlab">ginexlab</span></a>
+            </li>
+            <li><a href="index.html#comunicacion"><span>Comunicación</span></a>
 
               <ul class="submenu">
                 <li><a href="index.html#noticias">Noticias</a></li>
@@ -171,51 +189,34 @@ HEADERs
             </li>
             <li><span><a href="index.html#formacion-docencia" data-url="#formacion-docencia">Formación y Docencia</span></a>
             </li>
+            <li><span><a href="index.html#contacto" data-url="#contacto">Contacto</span></a>
+            </li>
           </ul>
         </nav>
-        <!--añadir clase submenu-->
-        <!-- <li class="" onclick="window.open('tratamientos/index.html','_self')">
-						<span>Tratamientos</span> -->
-        <!--ul>
-							<li><a href="tratamientos/implantes-dentales/">Implantología</a></li>
-							<li><a href="tratamientos/protesis-dentales/">Prótesis dental</a></li>
-							<li><a href="tratamientos/ortodoncia/">Ortodoncia</a></li>
-							<li><a href="tratamientos/ortodoncia-infantil/">Ortodoncia infantil</a></li>
-														<li><a href="tratamientos/estetica-dental/carillas-dentales/">Carillas dentales</a></li>
-														<li><a href="tratamientos/estetica-dental/">Estética dental</a></li>
-							<li><a href="tratamientos/limpieza-dental-avanzada/">Limpieza dental avanzada</a></li>
-							<li><a href="tratamientos/periodoncia/">Periodoncia</a></li>
-							<li><a href="tratamientos/endodoncia/">Endodoncia</a></li>
-							<li><a href="tratamientos/halitosis/">Halitosis</a></li>
-							<li><a href="tratamientos/caries/">Caries</a></li>
-														<li><a href="tratamientos/antirronquido/">Antirronquido</a></li>
-													</ul-->
-        <!-- </li>
-					<li  onclick="window.open('clinicas-dentales/espana/index.html','_self')">
-						<span>Centros</span>
-					</li> -->
+
 
         <!--Botones móvil-->
         <div class="btns-mobile">
           <div class="menu-mobile">
             <button id="bt-menu-mobile">
-			            <span class="top"></span>
-			            <span class="middle"></span>
-			            <span class="bottom"></span>
-			        </button>
+                <span class="top"></span>
+                <span class="middle"></span>
+                <span class="bottom"></span>
+            </button>
           </div>
-          <a href="tel:900111003">
-		        	<i class="fa fa-phone" aria-hidden="true"></i>
-		        </a>
+          <!-- <a href="tel:900111003">
+            <i class="fa fa-phone" aria-hidden="true"></i>
+          </a> -->
           <!-- <a href="https://zonapaciente.vitaldent.com:8023/" target="_blank"> -->
-          <a href="#" target="_blank">
-					<img src="img/icon_paciente3.svg" alt="Área paciente" class="img img-responsive">
-				</a>
+          <a href="c_previa.html" target="_blank">
+        <img src="img/icon_paciente3.svg" alt="Área paciente" class="img img-responsive">
+      </a>
           <select class="lang-select">
-						<option value="es" selected="selected"> Español</option>
-						<option value="en"> English</option>
-						<option value="ru"> Russian</option>
-				</select>
+          <option value="es" selected="selected"> Español</option>
+          <option value="en"> English</option>
+          <option value="ru"> Russian</option>
+          <option value="ar"> Arabic</option>
+      </select>
         </div>
         <!--//botones móvil-->
 
@@ -261,7 +262,6 @@ MAIN
 
             <ul>
               <li><a href="#">Contacto</a></li>
-              <li><a href="#">Únete a nosotros</a></li>
               <li><a href="#">Política Privacidad</a></li>
               <li><a href="#">Términos legales</a></li>
               <li><a href="#">Política de cookies</a></li>

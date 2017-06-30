@@ -31,6 +31,7 @@
 
        $(function() {
 
+         init_multilang_support();
 
          sectionTogglers = getSectionTogglers();
          idsOcultables = getStringIdsOcultables();
@@ -58,6 +59,29 @@
           	})
           }
       });
+
+
+      /*
+      *
+      *   bind change event to language select. When languge changes, the correspondant blocks are hidden and those for the selected language shown.
+      */
+      function init_multilang_support(){
+          // hide multilingual content
+
+          // show multilingual content for selected language
+          show_lang($("#lang-select").val());
+            // string{2} ru,en,es,ar,ch,fr,de
+          $("[class^=lang-select]").change(function(){var selectedLang = $(this).val();console.log("cambiando idioma a " + selectedLang);hide_multilang_content();show_lang(selectedLang)})
+
+      }
+      function show_lang(lang){
+        console.log("cambiar idioma a " + lang)
+        hide_multilang_content();
+        $("[class^=lang-val-"+lang+"]").fadeIn();
+      }
+      function hide_multilang_content(){
+        $("[class^=lang-val-]").hide();
+      }
 
        // Tut kod kotoryj budet srabytyvat, do togo kak DOM gotov, naprimer mozhno pokazat krutyashiysya znachok "loading..." .
 
@@ -119,7 +143,8 @@
 
           // scroll to unveiled section
           // $link.trigger('click');
-          setTimeout(function(){smoothScroll(requestedSecId);},2000);
+
+          // setTimeout(function(){smoothScroll(requestedSecId);},2000);
 
 
         })}
@@ -247,8 +272,9 @@
          if($sec.is(":hidden")){
            console.log("section id= "+v+" hidden");
            let knopka = $("[data-togg='" + targetSecId + "']");
-           if (knopka.length > 0){
-             console.debug("clicking button" + knopka);
+           if (knopka.length){
+            //  console.debug("clicking button" + knopka);
+             console.debug("mostrando seccion");
              knopka.click()
              console.log("section id " + v + "now visible? " + $sec.is(":visible"));
            }

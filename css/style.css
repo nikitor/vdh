@@ -531,7 +531,8 @@ body.it .fixed_cita {
 
 section article h2 {
 	font-family: "Roboto", Arial, Helvetica, sans-serif;
-	font-size: 1.5em;
+	/*font-size: 1.5em;*/
+	font-size: 2em;
 	font-weight: 100;
 	color: #ff3385;
 	text-align: center;
@@ -590,15 +591,24 @@ section article h2 {
 	float: left;
 	font-size:
 }
-.circle.ver_mas:hover,
-.circle.ver_mas:focus,
-.circle.ver_mas:active {
-	background-color: #166db2;
-	display: block;
-	font-size: 30px;
-	color: #FFF;
-	padding-top: 0;
-	font-size: 24px;
+
+/*---------------------------
+section togglers hover styles
+fa fa-angle-down
+---------------------------*/
+
+.circle .fa-angle-down:hover {
+	padding-top: 0.10em;
+}
+.circle .fa-angle-up:hover {
+	margin-top: -0.10em;
+}
+.circle:hover{
+	cursor: pointer;
+}
+.circle:hover .fa {
+	/*color: #166db2;*/
+		color: #ff3385;
 }
 /*Breadcrumbs*/
 #breadcrumbs {
@@ -688,16 +698,25 @@ header #top_menu select {
     appearance: none;
     background: url(../images/arrow_select.png) 92% / 15% no-repeat;
 }
+/* -------------------------
+AREA PACIENTE
+------------------------- */
 header #top_menu .area_paciente {
 	margin-left: 15px;
 	border-left: 1px solid #3b65ac;
 	padding: 5px 0 5px 15px;
+}
+.area-paciente a img:hover {
+    margin-top: -0.15em;
 }
 header #top_menu .area_paciente span {
     font-size: 12px;
     text-transform: uppercase;
     line-height: 1.1em;
     padding-left: 10px;
+}
+header #top_menu .area_paciente:hover img {
+		margin-top: -0.15em;
 }
 header nav {
     /*margin-top: 20px;*/
@@ -837,7 +856,7 @@ header.small_menu #small_logo {
 }
 
 header.small_menu #top_menu .area_paciente {
-	margin-left: 0;
+	margin-left: 1em;
 	border-left: 0;
 	padding: 0;
 	margin-bottom: -25px;
@@ -927,6 +946,23 @@ FOOTER
 .ventaja img {
     /*padding: 2em 2em 0 2em;*/
 		padding: 3em 6em 0;
+}
+.ventaja div.icon{
+    /*padding: 2em 2em 0 2em;*/
+		width: 2em;
+		height: 2em;
+}
+/*.ventaja div.icon.centros{
+	background-image: url('img/centros.svg')
+}
+.ventaja div.centros:hover{
+		background-image: url('img/centros-hover.svg')
+}*/
+
+#listado_ventajas article:hover{
+	display: block;
+	margin-top: -0.25em;
+	cursor: pointer;
 }
 
 .ventaja h3 {
@@ -1049,6 +1085,9 @@ footer section {
 #share_icons li a:hover {
 	background-color: #ff3385;
 }
+#share_icons.share_icons_head li:hover {
+	margin-top: -0.15em;
+}
 /* -------------------------
 HOME
 ------------------------- */
@@ -1135,6 +1174,28 @@ body.it #home_inicio article p {
 #sec_especialidades ul, #sec_especialidades .box_circle {
     width: 370px;
 }
+#sec_especialidades #diagnostico-por-imagen article * {
+		width: 100%;
+		font-size: 1em;
+		font-weight: 100;
+		text-transform: none;
+		color: #248f8f;
+		/*font-family: 'Roboto';*/
+		content: none;
+		margin-right: 0;
+		padding-left: 0;
+}
+
+#sec_especialidades #diagnostico-por-imagen strong {
+	/*color:#ff3385;*/
+	/*color:#FF7AAF;*/
+	font-weight: bold;
+}
+
+#sec_especialidades #diagnostico-por-imagen li:before {
+	content: none;
+	/*display: none;*/
+}
 #sec_especialidades .box_circle .circle {
 	margin: 20px 0 0 20px;
 }
@@ -1189,6 +1250,19 @@ body.it #home_inicio article p {
 	margin-top: 80px;
 }
 
+
+/* -------------------------
+CONTACTO
+------------------------- */
+#contacto {
+	font-family: 'Roboto', sans-serif;
+	font-size:1.5em;
+	/*color: #248f8f;*/
+	color: #FF7AAF;
+}
+#contacto p {
+	text-align: center;
+}
 /* -------------------------
 PREANESTESIA
 ------------------------- */
@@ -1237,6 +1311,7 @@ UROLOGIA
 
 #esp-uro article h2 {
 	line-height: 1.3em;
+	font-size: 1.5em;
 }
 /*Estilo h1 Para el encabezado de servicios de Urología */
 #esp-uro  h1 {
@@ -1251,6 +1326,17 @@ UROLOGIA
 #esp-uro h3 {
 	color: #248f8f
 }
+
+/* -------------------------
+GINEXLAB
+------------------------- */
+#ginexlab div {
+	overflow: hidden;
+}
+/* -------------------------
+/GINEXLAB
+------------------------- */
+
 
  /*#uro-amese*/
 /* -------------------------
@@ -2333,6 +2419,9 @@ MEDIAS
 	    font-size: 23px;
 	    font-weight: 400;
 	    margin-bottom: 30px;
+	}
+	header nav ul > li >	ul > li span {
+		 border-right: none;
 	}
 	header nav > ul > li {
 	    width: 100%;
