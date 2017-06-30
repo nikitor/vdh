@@ -1269,6 +1269,17 @@ body.it #home_inicio article p {
 	margin-top: 80px;
 }
 
+/* -------------------------
+GALARDONES
+------------------------- */
+#galardones {
+	text-align: center;
+}
+#galardones h3 {
+	color: #FF7AAF;
+	font-family: 'Roboto';
+	font-size: 2em;
+}
 
 /* -------------------------
 CONTACTO
@@ -1278,10 +1289,24 @@ CONTACTO
 	font-size:1.5em;
 	/*color: #248f8f;*/
 	color: #FF7AAF;
+	text-align: center !important;
 }
-#contacto p {
+#contacto article p {
 	text-align: center;
+	margin-top: 0;
 }
+
+#contacto h2 {
+		font-family: 'Fira Sans';
+		font-size: 2em;
+		margin: 0;
+}
+
+#contacto .telefono, #contacto  .correo, #contacto .direccion {
+	font-family: 'Roboto';
+	font-weight: 200;
+}
+
 /* -------------------------
 PREANESTESIA
 ------------------------- */
