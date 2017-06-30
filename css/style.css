@@ -1037,7 +1037,9 @@ footer nav li a {
 footer nav li a:hover,
 footer nav li a:focus,
 footer nav li a:active {
-    color: #3b65ac;
+    /*color: #3b65ac;*/
+    color: #00f0f0;
+
 }
 
 footer ul {
