@@ -1,0 +1,29 @@
+<svg id="svg2" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="50mm" width="70mm" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="0 0 248.0315 177.16535">
+ <g id="layer1" transform="translate(0 -875.2)">
+  <g id="g5346" stroke="#ff7aaf">
+   <g id="g5326" transform="matrix(1.0789 0 0 1.1582 -9.7898 -166.43)" stroke="#ff7aaf" stroke-miterlimit="3.9286" stroke-width="1.9222" fill="none">
+    <path id="rect4363" style="color-rendering:auto;color:#000000;isolation:auto;mix-blend-mode:normal;shape-rendering:auto;solid-color:#000000;image-rendering:auto" d="m9.0736 1050.9h229.88z"/>
+    <rect id="rect4374" style="color-rendering:auto;color:#000000;isolation:auto;mix-blend-mode:normal;shape-rendering:auto;solid-color:#000000;image-rendering:auto" height="47.766" width="26.513" y="1003" x="110.76"/>
+    <path id="path5675" style="color-rendering:auto;color:#000000;isolation:auto;mix-blend-mode:normal;shape-rendering:auto;solid-color:#000000;image-rendering:auto" d="m236.79 959.05h-223.78l110.76-58.634z"/>
+    <g id="g5689" style="color-rendering:auto;color:#000000;isolation:auto;mix-blend-mode:normal;shape-rendering:auto;solid-color:#000000;image-rendering:auto">
+     <rect id="rect5687" style="color-rendering:auto;color:#000000;isolation:auto;mix-blend-mode:normal;shape-rendering:auto;solid-color:#000000;image-rendering:auto" height="10.404" width="32" y="1039.5" x="60"/>
+     <rect id="rect5683" style="color-rendering:auto;color:#000000;isolation:auto;mix-blend-mode:normal;shape-rendering:auto;solid-color:#000000;image-rendering:auto" height="10.404" width="32" y="959.46" x="60"/>
+     <rect id="rect5685" style="color-rendering:auto;color:#000000;isolation:auto;mix-blend-mode:normal;shape-rendering:auto;solid-color:#000000;image-rendering:auto" height="68.465" width="20.465" y="970.38" x="66.518"/>
+    </g>
+    <g id="g5694" style="color-rendering:auto;color:#000000;isolation:auto;mix-blend-mode:normal;shape-rendering:auto;solid-color:#000000;image-rendering:auto" transform="matrix(-1,0,0,1,248,0)">
+     <rect id="rect5696" style="color-rendering:auto;color:#000000;isolation:auto;mix-blend-mode:normal;shape-rendering:auto;solid-color:#000000;image-rendering:auto" height="10.404" width="32" y="1039.5" x="60"/>
+     <rect id="rect5698" style="color-rendering:auto;color:#000000;isolation:auto;mix-blend-mode:normal;shape-rendering:auto;solid-color:#000000;image-rendering:auto" height="10.404" width="32" y="959.46" x="60"/>
+     <rect id="rect5700" style="color-rendering:auto;color:#000000;isolation:auto;mix-blend-mode:normal;shape-rendering:auto;solid-color:#000000;image-rendering:auto" height="68.465" width="20.465" y="970.38" x="66.518"/>
+    </g>
+    <path id="path5702" style="color-rendering:auto;color:#000000;isolation:auto;mix-blend-mode:normal;shape-rendering:auto;solid-color:#000000;image-rendering:auto" d="m27.25 958.61v92.5"/>
+    <path id="path5724" style="color-rendering:auto;color:#000000;isolation:auto;mix-blend-mode:normal;shape-rendering:auto;solid-color:#000000;image-rendering:auto" d="m221.25 958.61v92.5"/>
+    <path id="path5726" style="color-rendering:auto;color:#000000;isolation:auto;mix-blend-mode:normal;shape-rendering:auto;solid-color:#000000;image-rendering:auto" d="m200.24 949.9h-150.7l74.59-40.409z"/>
+    <ellipse id="path5728" style="color-rendering:auto;color:#000000;isolation:auto;mix-blend-mode:normal;shape-rendering:auto;solid-color:#000000;image-rendering:auto" rx="12.25" ry="11" cy="981.61" cx="123.75"/>
+    <g id="g5748" transform="translate(0,26)">
+     <rect id="rect5744" style="color-rendering:auto;color:#000000;isolation:auto;mix-blend-mode:normal;shape-rendering:auto;solid-color:#000000;image-rendering:auto" height="16.263" width="10.607" y="991.9" x="39.244"/>
+     <rect id="rect5746" style="color-rendering:auto;color:#000000;isolation:auto;mix-blend-mode:normal;shape-rendering:auto;solid-color:#000000;image-rendering:auto" height="16.263" width="10.607" y="991.9" x="199.76"/>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>
