@@ -1063,16 +1063,16 @@ footer section {
 	margin-bottom: 20px;
 	font-family: 'Roboto';
 }
-#share_icons, #share_icons-foot {
+#share_icons, #share_icons-foot, #share_icons-ginexlab {
 	text-align: center;
 	margin-top: 30px;
 	padding-left: 0;
 }
-#share_icons li, #share_icons-foot li {
+#share_icons li, #share_icons-foot li, #share_icons-ginexlab li {
 	display: inline-block;
-	padding: 0 1em;
+	padding: 0 1.5em;
 }
-#share_icons li a, #share_icons-foot li a {
+#share_icons li a, #share_icons-foot li a, #share_icons-ginexlab li a {
 			border-radius: 50%;
 	    color: #FFF;
 			display: inline-block;
@@ -1090,13 +1090,13 @@ background-color: #FF7AAF;
 background-color: #2db4b4;
 }
 
-#share_icons li a:hover {
+#share_icons li a:hover, #share_icons-ginexlab li a:hover {
 	background-color: #ff3385;
 }
  #share_icons-foot li a:hover {
 background-color: #00f0f0;
 }
-#share_icons.share_icons_head li:hover, #share_icons-foot li:hover{
+#share_icons.share_icons_head li:hover, #share_icons-ginexlab.share_icons_head li:hover, #share_icons-foot li:hover{
 	margin-top: -0.15em;
 }
 #share_icons-foot ul {
@@ -1375,10 +1375,21 @@ UROLOGIA
 GINEXLAB
 ------------------------- */
 #ginexlab div {
-	overflow: hidden;
+	/*overflow: hidden;*/
 }
+
+#ginexlab a.logo img {
+	margin: 0 auto;
+}
+
+#share_icons-ginexlab li a {
+    font-size: 1.4em;
+		background-color: #b6407c;
+	}
+
+
 /* -------------------------
-/GINEXLAB
+fin GINEXLAB
 ------------------------- */
 
 
@@ -2291,6 +2302,11 @@ MEDIAS
 }
 
 @media (max-width: 600px) {
+
+	.outer {
+		position: inherit;
+	}
+
 	/*Header*/
 	header {
 	    padding-top: 21px;
@@ -2841,6 +2857,10 @@ El contenido a centrar:
   padding-top: 7%;
   /* opacity: 0.7; */
 }
+ .ventaja img{
+	 padding: 3em 4em 0;
+}
+
 /*@media (max-width: 450px) {
 	.cita-medigest-title{
     padding-top: 35%;
@@ -2883,3 +2903,32 @@ El contenido a centrar:
 #sec_especialidades strong [id^=esp-]{
 	color:#00d6d6;
 }
+
+.back-to-top:hover {
+	padding-bottom: 0.15em;
+
+}
+.back-to-top {
+	margin: 0;
+	position: fixed;
+	bottom: 0.5em;
+	right: 0.5em;
+	width: 3.3em;
+	height: 3.3em;
+	z-index: 100;
+	display: block;
+	text-decoration: none;
+	color: #e085a9;
+	background-color: #fff;
+	border-radius: 50%;
+	text-align: center;
+	border: 2px solid #85e0e0;
+}
+
+.back-to-top i {
+  /*font-size: 3.75em;*/
+  font-size: 3.15em;
+
+}
+
+</style>

@@ -131,7 +131,7 @@
       // Abrir secciones que contienen la seccion destino de enlace clickado,
       // si están ocultos, antes de realizar la accion de scroll hacia la seccion destino.
       function bindOpenparentsNavLinks(){
-        $("nav li a").on("click",function(e){
+        $("nav li a[href^='#'], #top_menu a[href^='#'], #listado_ventajas a[href^='#']").on("click",function(e){
           $link=$(this);
           let requestedSecId = $link.attr("href");
           console.log("ir a seccion cuyo id es " + requestedSecId);
@@ -141,8 +141,20 @@
           e.stopPropagation();
           unveilSection(requestedSecId);
 
+
           // scroll to unveiled section
           // $link.trigger('click');
+
+          // $('html, body').animate({
+          //     scrollTop: ($('#element').offset().top)
+          // },500);
+          setTimeout(function(){$('html, body').animate({
+              scrollTop: ($(requestedSecId).offset().top)
+          },500);},600);
+          // $(".small_menu").fadeOut(1200);
+          setTimeout(function(){changeMenuOnScroll();},600);
+
+
 
           // setTimeout(function(){smoothScroll(requestedSecId);},2000);
 
@@ -237,6 +249,24 @@
         }
       }
     }
+
+    function changeMenuOnScroll(){
+        if( $("body").hasClass('chrome') ) {
+            setTimeout(function(){
+              $("header").removeClass("small_menu");
+              $("header").css("margin-top","-126px").stop().animate({
+                "margin-top": 0
+              }, 280);
+            }, 50);
+        } else {
+            $("header").removeClass("small_menu");
+            $("header").css("margin-top","-126px").stop().animate({
+              "margin-top": 0
+            }, 280);
+        }
+
+    }
+
 
       /*
       // Ids de los bloques ancestros del bloque cuyo id se especifique en el argumento.

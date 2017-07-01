@@ -41,6 +41,7 @@
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="css/pe-icon-7-stroke.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!-- <link rel="stylesheet" type="text/css" href="css/print.css"> -->
 
 	<!--OWL CAROUSEL-->
 	<!-- <link rel="stylesheet" type="text/css" href="vendor/owl_carousel/owl.carousel.min.css">
@@ -130,9 +131,12 @@ HEADERs
 
 					<ul>
 						<!-- <li onclick="window.open('index.html','_self')"> -->
-						<li><a href="#home_inicio"><span class="lang-val-es">Inicio</span><span class="lang-val-en">Home</span><span class="lang-val-ru">Главная</span></a>
+						<!-- <span class="lang-val-en">Home</span><span class="lang-val-ru">Главная</span> -->
+						<li><a href="#home_inicio"><span class="lang-val-es">Inicio</span></a>
 						</li>
-						<li><span class="lang-val-es">Sobre AM</span><span class="lang-val-en">About AM</span><span class="lang-val-ru">О AM</span>
+						<!-- <span class="lang-val-ru">О AM</span>
+						<span class="lang-val-en">About AM</span> -->
+						<li><span class="lang-val-es">Sobre AM</span>
 
 							<ul class="submenu">
 								<li><a href="#quienes-somos">Quiénes Somos</a></li>
@@ -145,7 +149,9 @@ HEADERs
 								</li>
 							</ul>
 						</li>
-						<li><span class="lang-val-es">Especialidades</span><span class="lang-val-en">Specialities</span><span class="lang-val-ru">Специальности</span>
+
+						<li><span class="lang-val-es">Especialidades</span>
+							<!-- <span class="lang-val-en">Specialities</span><span class="lang-val-ru">Специальности</span> -->
 
 							<ul class="submenu">
 								<!-- <li><a href="UDI.html" data-url="#dignostico-imagen">Diagnóstico por Imagen</a></li> -->
@@ -177,9 +183,11 @@ HEADERs
 								<li><a href="#compromiso-social">Compromiso social</a></li>
 							</ul>
 						</li>
-						<li><a href="#formacion-docencia" data-url="#formacion-docencia"><span class="lang-val-es">Formación y Docencia</span><span class="lang-val-en">Education</span><span class="lang-val-ru">Образование</a>
+						<li><a href="#formacion-docencia" data-url="#formacion-docencia"><span class="lang-val-es">Formación y Docencia</span></a>
+							<!-- <span class="lang-val-en">Education</span><span class="lang-val-ru">Образование</span> -->
 						</li>
-						<li><a href="#contacto" data-url="#contacto"><span class="lang-val-es">Contacto</span><span class="lang-val-en">Contact</span><span class="lang-val-ru">Контакт</span></a>
+						<li><a href="#contacto" data-url="#contacto"><span class="lang-val-es">Contacto</span></a>
+							<!-- <span class="lang-val-en">Contact</span><span class="lang-val-ru">Контакт</span> -->
 						</li>
 					</ul>
 				</nav>
@@ -312,22 +320,21 @@ MAIN
 				<!-- <a href="#centros">
 					<div class="icon centros">asdsad</div>
 				</a> -->
-				<a href="index.html#centros"><img src="img/centros.svg" alt="Centros Arpa Médica" class="img img-responsive center-block"></a>
+				<a href="#centros"><img src="img/centros.svg" alt="Centros Arpa Médica" class="img img-responsive center-block"></a>
 				<h3>Centros</h3>
 				<p>Nuestros centros.</p>
 
 			</article>
 
 			<article class="col-xs-12 col-sm-3 col-md-3 ventaja">
-				<a href="index.html#aseguradoras"><img src="img/aseguradoras.svg" alt="aseguradoras" class="img img-responsive center-block"></a>
+				<a href="#aseguradoras"><img src="img/aseguradoras.svg" alt="aseguradoras" class="img img-responsive center-block"></a>
 				<h3>Aseguradoras</h3>
 				<p>Trabajamos con las principales aseguradoras.</p>
-
 			</article>
 
 			<article class="col-xs-12 col-sm-3 col-md-3 ventaja">
 				<!-- <img src="images/icon_financia.png" alt="Financiación" class="img img-responsive center-block"> -->
-				<a href="index.html#diagnostico-por-imagen"><img src="img/financiacion.svg" alt="Centros" class="img img-responsive center-block"></a>
+				<a href="#diagnostico-por-imagen"><img src="img/financiacion.svg" alt="Centros" class="img img-responsive center-block"></a>
 				<!-- <h3>Financiación</h3> -->
 				<h3>Diagnóstico</h3>
 				<p>Lo primero es tu salud y te ayudamos a que puedas disfrutar de ella.</p>
@@ -1094,16 +1101,28 @@ MAIN
 						<div class="outer">
 							<div class="middle">
 								<div class="inner">
-									<p>Nuestro objetivo es ayudarte a conseguir tu embarazo con la mayor garantía profesional y el mejor trato humano.</p>
-									<div class=" col-xs-12 col-sm-6">
-										<a href="http://www.ginexlab.com" target="_blank" class=""><img src="img/ginexlab.png" alt="clínica de reproducción asistida" class="center-text img-responsive"></a></div>
+									<div class="row">
+										<p>Nuestro objetivo es ayudarte a conseguir tu embarazo con la mayor garantía profesional y el mejor trato humano.</p>
+										<div class=" col-xs-12 col-sm-6 col-sm-offset-3">
+											<a href="http://www.ginexlab.com" class="logo" target="_blank" class=""><img src="img/ginexlab.png" alt="clínica de reproducción asistida" class="center-text img-responsive"></a></div>
+									</div>
+									<div class="row">
+										<div class="col-sm-12">
+
+											<ul id="share_icons-ginexlab" class="share_icons_head">
+												<li><a href="https://twitter.com/Ginexlab_ES" target="_blank"><i class="fa fa-twitter"></i></a></li>
+												<li><a href="https://www.facebook.com/pages/Ginexlab-Espa%C3%B1a/713801958672182?fref=ts" target="_blank"><i class="fa fa-facebook"></i></a></li>
+												<li><a href="https://www.youtube.com/channel/UCT1pSzfQWpFUGY6s4IrLn1g" target="_blank"><i class="fa fa-youtube"></i></a></li>
+												<li><a href="https://plus.google.com/+GinexlabReproduccion" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+											</ul>
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-		</div>
-		</article>
+			</article>
 		</div>
 		<!-- /container -->
 	</section>
@@ -1491,7 +1510,7 @@ MAIN
 					<!-- texto -->
 					<section class="fotos">
 						<div class="imagen">
-							<img src="img/noticias/premioexcelencia2017.jpg">
+							<img src="img/noticias/premioExcelencia2017.jpeg">
 							<a href="pdf/premioExcelencia2017.pdf" target="_blank">
 								<div class="nombre2">
 									<h2>Dr. Ignacio Palomo: premio excelencia en ginecóloga y reproducción asistida 2017</h2>
@@ -1938,6 +1957,10 @@ MAIN
 		</div>
 	</section>
 	</div>
+	<!-- go to top button -->
+	<a href="#" class="back-to-top" style="display:inline;" >
+		<i class="fa fa-angle-up"></i>
+	</a>
 
 	<div id="fixed_buttons">
 		<div class="butons_container">
@@ -1984,6 +2007,7 @@ MAIN
 		</div>
 	</div>
 
+
 	<!--JQUERY-->
 	<script type="text/javascript" src="js/jquery_v3.1.1.min.js"></script>
 
@@ -2001,6 +2025,27 @@ MAIN
 	<script type="text/javascript" src="js/scripts.js"></script>
 	<script type="text/javascript" src="js/moyscript.js"></script>
 
+	<script>
+
+$(function(){
+	var offset = 250;
+	var duration = 300;
+
+$(window).scroll(function() {
+  if ($(this).scrollTop() > offset) {
+	    $(".back-to-top").fadeIn(duration);
+	} else {
+	    $('.back-to-top').fadeOut(duration);
+	  }
+	});
+
+	$('.back-to-top').click(function(event) {
+	  event.preventDefault();
+	  $('html, body').animate({scrollTop: 0}, duration);
+	  return false;
+	})
+});
+	</script>
 </body>
 
 </html>
