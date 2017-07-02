@@ -298,8 +298,8 @@ button:focus {
 	outline: none;
 }
 body {
-  /* font-family: 'Roboto', sans-serif; */
-  font-family: 'Fira Sans', sans-serif;
+   font-family: 'Roboto', sans-serif;
+  /*font-family: 'Fira Sans', sans-serif;*/
   /*color: #89898b;*/
   /*color: #248f8f;*/
   color: #248f8f;
@@ -1107,6 +1107,8 @@ background-color: #00f0f0;
 	font-size: 1.5em;
 	background-color: #2db4b4;
 }
+
+
 /* -------------------------
 HOME
 ------------------------- */
@@ -2824,14 +2826,12 @@ El contenido a centrar:
 
 @media (max-width: 1199px){
 
+	.outer {
+		position: inherit;
+	}
+
 	#home_inicio div.lema {
 		margin-bottom: 6em;
-	}
-}
-@media (max-width: 450px){
-
-	#home_inicio div.lema p {
-		font-size: 2.7em;
 	}
 }
 
@@ -2931,4 +2931,24 @@ El contenido a centrar:
 
 }
 
-</style>
+@media (max-width: 450px){
+
+	#home_inicio div.lema p {
+		font-size: 2.7em;
+	}
+
+	ul#share_icons {
+		padding-left: 20.1%;
+	}
+	/*#share_icons.share_icons_head ul li {*/
+	#share_icons li {
+		padding: 0 1em;
+	}
+	#home_inicio div.lema {
+	    margin-bottom: 1em;
+	}
+	.ventaja img {
+	    padding: 4em 8em 0;
+	}	
+
+}

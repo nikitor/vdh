@@ -71,7 +71,10 @@
           // show multilingual content for selected language
           show_lang($("#lang-select").val());
             // string{2} ru,en,es,ar,ch,fr,de
-          $("[class^=lang-select]").change(function(){var selectedLang = $(this).val();console.log("cambiando idioma a " + selectedLang);hide_multilang_content();show_lang(selectedLang)})
+          $("[class^=lang-select]").change(function(){var selectedLang = $(this).val();
+            console.log("cambiando idioma a " + selectedLang);
+            hide_multilang_content();
+            show_lang(selectedLang)})
 
       }
       function show_lang(lang){
@@ -148,11 +151,16 @@
           // $('html, body').animate({
           //     scrollTop: ($('#element').offset().top)
           // },500);
-          setTimeout(function(){$('html, body').animate({
-              scrollTop: ($(requestedSecId).offset().top)
-          },500);},600);
-          // $(".small_menu").fadeOut(1200);
-          setTimeout(function(){changeMenuOnScroll();},600);
+          $("html, body").animate({
+              scrollTop: $(requestedSecId).offset().top - Math.floor($(window).height()/3)
+              // scrollTop: $(requestedSecId).offset().top
+          },500);
+
+          // setTimeout(function(){$('html, body').animate({
+          //     scrollTop: ($(requestedSecId).offset().top - Math.floor(top-$(window).height()/3) ))
+          // },500);},500);
+          // // $(".small_menu").fadeOut(1200);
+          // setTimeout(function(){changeMenuOnScroll();},600);
 
 
 
