@@ -2949,6 +2949,15 @@ El contenido a centrar:
 	}
 	.ventaja img {
 	    padding: 4em 8em 0;
-	}	
+	}
+
+	#contacto p {
+		margin: 1em 0;
+		font-size: 1.1em;
+	}
+	#contacto h4 {
+		margin-top: 0;
+		margin-bottom: 0.5em;
+	}
 
 }
